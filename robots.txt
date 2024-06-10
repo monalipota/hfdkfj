@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /
+Crawl-delay: 60
+Disallow: //
+Sitemap: bbbb.bitdrop-allotment.com/sitemap.xml

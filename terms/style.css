@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+*:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1em;
+}
+
+body {
+  background-color: #ffe659;
+  color: #2d2926;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.o-container {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 64px 8px;
+  max-width: 800px;
+}
+
+.c-tncs {
+  position: relative;
+  background: #ffffff;
+  padding: 16px 32px;
+  border-radius: 8px;
+  counter-reset: section;
+}
+.c-tncs:before, .c-tncs:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.c-tncs:after {
+  clear: both;
+}
+.c-tncs h2:before {
+  counter-increment: section;
+  content: counter(section) ". ";
+  margin: 0 16px 0 0;
+}
+.c-tncs ol {
+  counter-reset: clause;
+  list-style: none inside none;
+  text-indent: 0;
+}
+.c-tncs ol li {
+  counter-increment: clause;
+}
+.c-tncs ol li:before {
+  content: counter(section) "." counters(clause, ".") ". ";
+  margin: 0 16px 0 0;
+}
+.c-tncs li {
+  margin-bottom: 16px;
+}
+.c-tncs li ol {
+  margin-top: 16px;
+}

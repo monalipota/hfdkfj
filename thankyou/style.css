@@ -1,0 +1,221 @@
+body {
+background: #F0D7E1;
+}
+#hello-dribbble {
+	margin: 50px auto;
+	width: 600px;
+	position: relative;
+  font-family: 'Lobster', cursive;
+}
+
+.box {
+	width: 350px;
+	height: 300px;
+	background: #333;
+	position: relative;
+	margin: 100px auto;
+	border-radius: 4px;
+
+	-webkit-box-shadow: inset 0px 1px 2px 0 rgba(255, 255, 255, 0.19), 0 20px 28px -4px rgba(0, 0, 0, 0.63);
+	box-shadow: inset 0px 1px 2px 0 rgba(255, 255, 255, 0.19), 0 20px 28px -4px rgba(0, 0, 0, 0.63);
+}
+
+.box:before {
+	content: "";
+	position: absolute;
+	width: 348px;
+	height: 0;
+	top: -14px;
+	left: 1px;
+	border-bottom: 15px solid #464646;
+	border-left: 20px solid rgba(0, 0, 0, 0);
+	border-right: 20px solid rgba(0, 0, 0, 0);
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	z-index: -1;
+}
+
+.box:after {
+	content: "";
+	width: 60%;
+	left: 20%;
+	position: absolute;
+	height: 3px;
+	top: -7px;
+
+	-webkit-box-shadow: inset 0 -1px 2px 0px #000;
+	box-shadow: inset 0 -1px 2px 0px #000;
+	border-radius: 5px;
+}
+
+.card {
+	width: 110px;
+	height: 120px;
+	background: #2C2C2C;
+	position: absolute;
+	top: 7px;
+	left: 50%;
+	margin-left: -55px;
+	color: #C7376D;
+	text-align: center;
+	font-family: 'Courier New';
+	font-size: 5em;
+	line-height: 120px;
+
+	-webkit-box-shadow: inset 0 5px 0, inset 0 -160px 50px -100px rgba(0, 0, 0, 0.3);
+	box-shadow: inset 0 5px 0, inset 0 -160px 50px -100px rgba(0, 0, 0, 0.3);
+
+	-webkit-transition: all 500ms;
+	-moz-transition: all 500ms;
+	-o-transition: all 500ms;
+	-ms-transition: all 500ms;
+	transition: all 500ms;
+}
+
+.card-wrapper {
+	height: 127px;
+	position: absolute;
+	width: 100%;
+	bottom: 305px;
+	overflow: hidden;
+}
+
+.dribbble-logo {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	border: 20px solid #2B2B2B;
+  	-webkit-transition: all 500ms;
+	-moz-transition: all 500ms;
+	-o-transition: all 500ms;
+	-ms-transition: all 500ms;
+	transition: all 500ms;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.12),inset 0 -1px 0 rgba(0, 0, 0, 0.21), inset -380px 190px 0 -350px #333,inset -381px 190px 0 -350px rgba(0, 0, 0, 0.1), inset -400px 190px 0 -350px #2B2B2B, inset -400px 190px 0 -350px rgba(255, 255, 255, 0.43),0 1px 0 rgba(255, 255, 255, 0.08);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.12),inset 0 -1px 0 rgba(0, 0, 0, 0.21), inset -380px 190px 0 -350px #333,inset -381px 190px 0 -350px rgba(0, 0, 0, 0.1), inset -400px 190px 0 -350px #2B2B2B, inset -400px 190px 0 -350px rgba(255, 255, 255, 0.43),0 1px 0 rgba(255, 255, 255, 0.08);
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	position: absolute;
+	left: 50px;
+	top: 25px;
+	overflow: hidden;
+}
+
+.dribbble-logo:before {
+	content: "";
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	border: 20px solid #2B2B2B;
+	-webkit-transition: all 500ms;
+	-moz-transition: all 500ms;
+	-o-transition: all 500ms;
+	-ms-transition: all 500ms;
+	transition: all 500ms;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.12),inset 0 -1px 0 rgba(0, 0, 0, 0.21);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.12),inset 0 -1px 0 rgba(0, 0, 0, 0.21);
+	border-radius: 50%;
+	top: 95px;
+	left: 0px;
+}
+
+.dribbble-logo:after {
+	content: "";
+	width: 410px;
+	height: 170px;
+	position: absolute;
+	border: 20px solid #2B2B2B;
+	-webkit-transition: all 500ms;
+	-moz-transition: all 500ms;
+	-o-transition: all 500ms;
+	-ms-transition: all 500ms;
+	transition: all 500ms;
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.12),inset 0 -1px 0 rgba(0, 0, 0, 0.21);
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.12),inset 0 -1px 0 rgba(0, 0, 0, 0.21);
+	border-radius: 50%;
+	top: -105px;
+	left: -260px;
+}
+
+#button {
+	position: absolute;
+	left: -9999px;
+}
+
+.button {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 50%;
+	text-align: center;
+	display: block;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	background: #C7376D ;
+	color: #972B54;
+	font-weight: bold;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.19);
+
+	-webkit-box-shadow: 0 -4px 0, inset 0 1px 0 rgba(255, 255, 255, 0.18), 0 -5px 0 1px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 -4px 0, inset 0 1px 0 rgba(255, 255, 255, 0.18), 0 -5px 0 1px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+}
+
+#button:checked ~ .card-wrapper .card {
+	top: 130px;
+}
+
+#button:checked ~ .box .dribbble-logo {
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.12),inset 0 -1px 0 rgba(0, 0, 0, 0.21), inset -380px 190px 0 -350px #333,inset -381px 190px 0 -350px rgba(0, 0, 0, 0.1), inset -400px 190px 0 -350px #C7376D, inset -400px 190px 0 -350px rgba(255, 255, 255, 0.43),0 1px 0 rgba(255, 255, 255, 0.08) !important;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.12),inset 0 -1px 0 rgba(0, 0, 0, 0.21), inset -380px 190px 0 -350px #333,inset -381px 190px 0 -350px rgba(0, 0, 0, 0.1), inset -400px 190px 0 -350px #C7376D, inset -400px 190px 0 -350px rgba(255, 255, 255, 0.43),0 1px 0 rgba(255, 255, 255, 0.08) !important;
+	border-color: #C7376D !important;
+}
+#button:checked ~ .box .dribbble-logo:before,#button:checked ~ .box .dribbble-logo:after {
+  border: 20px solid #C7376D;
+}
+.button:hover {
+-webkit-box-shadow: 0 -3px 0, inset 0 1px 0 rgba(255, 255, 255, 0.18), 0 -4px 0 1px rgba(0, 0, 0, 0.1);
+box-shadow: 0 -3px 0, inset 0 1px 0 rgba(255, 255, 255, 0.18), 0 -4px 0 1px rgba(0, 0, 0, 0.1);
+bottom: 11px;
+}
+.button:active,.button:focus{
+  -webkit-box-shadow: 0 1px 0, inset 0 1px 0 rgba(255, 255, 255, 0.18), 0 -2px 0 1px rgba(0, 0, 0, 0.1);
+box-shadow: 0 1px 0, inset 0 1px 0 rgba(255, 255, 255, 0.18), 0 -2px 0 1px rgba(0, 0, 0, 0.1);
+bottom: 14px;
+}
+
+h1 {
+color: #FFF;
+font-size: 71px;
+text-align: center;
+text-shadow: 0 1px 0 #C9CFCE, 0 2px 0 #BCC2C2, 0 3px 0 #AFB6B6, 0 4px 0 #A4ADAC, 0 5px 0 #9FA8A7, 0 6px 0 #99A3A2, 0 7px 0 #97A1A0, 0 8px 0 #949E9D, 0 0 5px rgba(0, 0, 0, .05), 0 1px 3px rgba(0, 0, 0, .2), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .2), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .3);
+}
+h2 {
+color: #F0D7E1;
+margin-top: 20px;
+font-size: 41px;
+text-align: center;
+text-shadow: 0 0px 0 rgba(0, 0, 0, 0), 0 0px 0 rgba(0, 0, 0, 0), 0 0px 0 rgba(0, 0, 0, 0), 0 0px 0 rgba(0, 0, 0, 0), 0 0px 0 rgba(0, 0, 0, 0), 0 0px 0 rgba(0, 0, 0, 0), 0 0px 0 rgba(0, 0, 0, 0), 0 0px 0 rgba(0, 0, 0, 0), 0 0 0px rgba(0, 0, 0, 0.05), 0 0px 0px rgba(0, 0, 0, 0), 0 0px 0px rgba(0, 0, 0, 0), 0 0px 0px rgba(0, 0, 0, 0), 0 0px 0px rgba(0, 0, 0, 0), 0 0px 0px rgba(0, 0, 0, 0);
+ 	-webkit-transition: all 500ms;
+	-moz-transition: all 500ms;
+	-o-transition: all 500ms;
+	-ms-transition: all 500ms;
+	transition: all 500ms;
+}
+#button:checked ~ h2 {
+color: #C7376D;
+text-shadow: 0 1px 0 #E24982, 0 2px 0 #BB3669, 0 3px 0 #A8325E, 0 4px 0 #9B2E57, 0 5px 0 #7E2546, 0 6px 0 #581931, 0 7px 0 #571931, 0 8px 0 #441225, 0 0 5px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, .2), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .2), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .3);
+}
+#button:checked ~ .box .button {
+color: #FFF;
+-webkit-box-shadow: 0 1px 0 #972B54, inset 0 1px 0 rgba(255, 255, 255, 0.18), 0 -2px 0 1px rgba(0, 0, 0, 0.1);
+box-shadow: 0 1px 0 #972B54, inset 0 1px 0 rgba(255, 255, 255, 0.18), 0 -2px 0 1px rgba(0, 0, 0, 0.1);
+bottom: 14px;
+text-shadow: 0 1px 0 #972B54;
+}
